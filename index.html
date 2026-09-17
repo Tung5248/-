@@ -1,0 +1,1453 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#d52f26"><title>長照四包錢｜老五老基金會</title>
+<style>
+:root{--green:#145b55;--green2:#2f8176;--mint:#e8f4ef;--cream:#fbf7ed;--ink:#173f3b;--muted:#6f8580;--red:#d4473c;--gold:#e7ad32;--line:#d9e6e0;--white:#fff;}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC",sans-serif;color:var(--ink)}
+.header{background:var(--green);color:#fff;padding:26px 20px 0;position:sticky;top:0;z-index:20;box-shadow:0 4px 18px #174b4620}.brand{max-width:980px;margin:auto;display:flex;align-items:center;gap:16px;padding-bottom:20px}.logo{width:96px;height:96px;border-radius:22px;background:transparent;object-fit:cover;padding:0;display:block;flex:none}.brand h1{font-size:24px;margin:0 0 4px;letter-spacing:.04em}.brand p{margin:0;color:#c9dfd9}.nav{max-width:620px;margin:auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:0 0 10px}.nav a{color:#d5e7e2;text-decoration:none;padding:11px 8px;border-radius:14px;text-align:center;white-space:nowrap;font-weight:900;font-size:16px;line-height:1.2;background:transparent}.nav a:hover,.nav a:focus{background:#2c786e;color:#fff}
+main{max-width:980px;margin:auto;padding:28px 16px 70px}.hero{background:linear-gradient(135deg,#e8f5ef,#f4f9f4);border:1px solid var(--line);border-radius:28px;padding:34px 28px;margin-bottom:20px}.eyebrow{color:#4f958c;letter-spacing:.2em;font-weight:900;font-size:14px}.hero h2{font-size:42px;line-height:1.15;margin:10px 0;color:var(--ink)}.dot{color:var(--red)}.hero p{font-size:14px;line-height:1.8;color:var(--muted);margin:0;max-width:720px}.hero-desc{margin-top:4px!important}
+.card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:24px;margin:18px 0;box-shadow:0 8px 28px #285b5210}.section-title{display:flex;align-items:center;gap:10px;font-size:25px;margin:0 0 20px}.num{border:2px solid var(--green2);border-radius:50%;width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;font-size:16px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}label{display:block;font-weight:900;margin:0 0 8px}select,input{width:100%;font:inherit;border:1.5px solid #cbded8;background:#fbfdfc;color:var(--ink);border-radius:15px;padding:14px 15px;outline:none}select:focus,input:focus{border-color:var(--green2);box-shadow:0 0 0 4px #6bc1b020}.seg{display:flex;gap:8px;flex-wrap:wrap}.seg button{border:1.5px solid #cbded8;background:#fff;color:var(--ink);padding:11px 17px;border-radius:999px;font-weight:900;cursor:pointer}.seg button.active{background:var(--green);color:#fff;border-color:var(--green)}.hint{color:var(--muted);font-size:14px;line-height:1.7}.service-tabs{display:flex;gap:8px;overflow:auto;padding-bottom:8px}.service-tabs button{border:0;background:#edf5f1;color:#47716b;padding:11px 15px;border-radius:999px;font-weight:900;white-space:nowrap;cursor:pointer}.service-tabs button.active{background:#2f8176;color:#fff}.service-panel{display:none}.service-panel.active{display:block}.row{display:grid;grid-template-columns:1fr 130px auto;gap:10px;align-items:end;margin-top:12px}.primary{border:0;background:var(--green);color:#fff;font-weight:900;padding:14px 18px;border-radius:15px;cursor:pointer}.secondary{border:1px solid #cbded8;background:#fff;color:var(--green);font-weight:900;padding:13px 18px;border-radius:15px;cursor:pointer}.list{margin-top:16px}.item{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;padding:14px 0;border-bottom:1px solid #edf2ef}.item:last-child{border-bottom:0}.item b{display:block}.item small{display:block;color:var(--muted);line-height:1.6;margin-top:3px}.money{font-weight:950;white-space:nowrap}.danger{border:0;background:#fff0ee;color:#b63d35;padding:8px 10px;border-radius:10px;font-weight:900;cursor:pointer}
+.summary{background:var(--green);color:#fff;border-radius:24px;padding:24px;position:sticky;bottom:12px;z-index:10;box-shadow:0 12px 35px #0d3e3935}.summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.sum small{display:block;color:#b9d6d0;margin-bottom:5px}.sum strong{font-size:24px}.bar{height:10px;background:#ffffff28;border-radius:99px;overflow:hidden;margin:18px 0 8px}.bar i{display:block;height:100%;width:0;background:#8de0c9;border-radius:99px}.over{color:#ffd2ce}.transport-switch{display:flex;gap:8px;margin-bottom:18px}.transport-switch button{flex:1;padding:13px;border-radius:14px;border:1.5px solid #cbded8;background:#fff;font-weight:900;color:var(--ink)}.transport-switch button.active{background:var(--green);color:#fff;border-color:var(--green)}.transport-panel{display:none}.transport-panel.active{display:block}.price-box{margin-top:16px;padding:20px;border-radius:20px;background:var(--mint);border:1px solid #c9e5dc}.price-box .big{font-size:34px;font-weight:950;margin:5px 0}.note{border-left:5px solid var(--gold);background:#fffaf0;padding:15px 16px;border-radius:12px;margin-top:12px;line-height:1.7}.notice-grid{display:grid;gap:12px}.notice{padding:18px;border:1px solid #eadfca;border-radius:17px;background:#fffdf8}.notice h3{margin:0 0 7px}footer{max-width:980px;margin:0 auto;padding:0 16px 50px;color:#7a8c87;font-size:13px;line-height:1.7}
+@media(max-width:700px){.logo{width:82px;height:82px;border-radius:20px}.brand{gap:12px}.brand h1{font-size:20px}.hero h2{font-size:34px}.grid,.summary-grid{grid-template-columns:1fr}.row{grid-template-columns:1fr 100px}.row .primary{grid-column:1/-1}.item{grid-template-columns:1fr auto}.item .danger{grid-column:2;grid-row:1}main{padding-top:18px}.header{position:relative}}
+.added-summary{margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}.added-summary h3{margin:0 0 6px;color:var(--green)}
+
+/* V71：上方快捷按鈕文字直接使用下方 1～4 服務區的主色 */
+.nav a:nth-child(1){color:var(--ofo-blue)!important;}
+.nav a:nth-child(2){color:var(--ofo-orange)!important;}
+.nav a:nth-child(3){color:#A87508!important;}
+.nav a:nth-child(4){color:var(--ofo-pink)!important;}
+
+</style><style>
+.add-head{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:14px}.add-head p{margin:4px 0 0;color:#6f7b75;font-size:13px}.dynamic-list{display:flex;flex-direction:column;gap:10px}.calc-row{display:grid;grid-template-columns:minmax(0,1fr) 110px 150px auto;gap:10px;align-items:center;padding:12px;background:#fbfaf6;border:1px solid #e8e3d8;border-radius:14px}.calc-row select{width:100%}.row-price{min-width:130px;text-align:right}.row-price strong{display:block;font-size:17px}.row-price small{display:block;color:#748078;margin-top:3px}.live-summary.mini{display:flex;gap:20px;flex-wrap:wrap;margin:10px 0 16px;padding:12px 14px;background:#f4f7f3;border-radius:12px}.live-summary.mini b{font-size:18px}.over{color:#b4473d!important}.status.over{background:#fff0ed!important;color:#a83e35!important;border-color:#efc2bc!important}
+@media(max-width:700px){.add-head{align-items:stretch;flex-direction:column}.add-head .primary{width:100%}.calc-row{grid-template-columns:1fr 100px auto;}.row-price{grid-column:1/3;text-align:left}.calc-row .danger{grid-column:3;grid-row:2}.service-tabs{overflow-x:auto}.service-tabs button{white-space:nowrap}}
+</style>
+<style>
+/* V14：額度資訊整合進照顧及專業服務卡片 */
+.live-summary { position: static !important; }
+</style>
+
+<style>
+/* V15：移除浮動綠色額度區塊，只保留照顧及專業服務卡片內的額度 */
+.live-summary { position: static !important; }
+</style>
+<style>
+.service-quota{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:12px;
+  margin:12px 0 18px;
+  padding:14px;
+  background:#f4f7f3;
+  border:1px solid #dfeae4;
+  border-radius:14px;
+}
+.service-quota div{min-width:0}
+.service-quota small{display:block;color:#65746e;margin-bottom:4px}
+.service-quota strong{font-size:18px;color:var(--green)}
+.service-quota .over{color:#b42318}
+@media(max-width:640px){
+  .service-quota{grid-template-columns:1fr}
+}
+</style><style>
+.service-quota em{display:block;font-style:normal;font-size:12px;color:#65746e;margin-top:2px}
+</style><style>
+.service-quota{position:static !important}
+.service-quota strong.over{color:#c83b31}
+.service-quota em{display:block;font-style:normal;font-size:12px;color:#65746e;margin-top:2px}
+</style><style>
+.service-quota{position:static !important}
+.service-quota strong.over{color:#c83b31}
+.service-quota em{display:block;font-style:normal;font-size:12px;color:#65746e;margin-top:2px}
+</style><style>
+.unified-service-add{margin-bottom:14px}
+.service-add-buttons{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.row-category{grid-column:1/-1;font-size:12px;font-weight:900;color:#2f8176}
+.calc-row{grid-template-columns:1fr minmax(0,2.2fr) 110px 150px auto}
+@media(max-width:700px){
+  .service-add-buttons{grid-template-columns:1fr}
+  .calc-row{grid-template-columns:1fr 100px auto}
+  .row-category{grid-column:1/-1}
+}
+</style><style>
+#resRows .row-category{color:#2f8176}
+#resRows .calc-row{border-left:4px solid #8e79a8}
+</style><style>
+.copay-total{
+  margin-top:8px;
+  padding-top:10px;
+  border-top:1px solid rgba(47,129,118,.16);
+}
+.copay-total strong{
+  color:#c83b31;
+}
+</style><style>
+.transport-info-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:14px}
+.transport-info{padding:14px 16px;border:1px solid rgba(47,129,118,.18);border-radius:14px;background:#fafcfb}
+.transport-info label{display:block;font-size:12px;color:#65746e;margin-bottom:5px}
+.transport-info strong{font-size:20px;color:#2f8176}
+@media(max-width:700px){.transport-info-grid{grid-template-columns:1fr}}
+</style><style id="ofo-v37-theme">
+:root{--ofo-red:#d52f26;--ofo-red-dark:#b8241d;--ofo-yellow:#f4cf48;--ofo-cream:#fffaf0;--ofo-ink:#222;--ofo-muted:#727a77;--ofo-line:#eadfd2;--ofo-red-soft:#fff0ed;--ofo-yellow-soft:#fff7d9;--green:#d52f26;--green2:#d52f26;--ink:#26312f;--muted:#727a77;--line:#eadfd2}
+body{background:linear-gradient(180deg,#fffdf9 0%,#fffaf0 100%)!important;color:var(--ofo-ink)}
+.header{background:var(--ofo-red)!important;color:#fff!important;box-shadow:0 5px 22px rgba(181,36,29,.16)}
+.header .nav a{color:#fff!important}.header .nav a:hover{background:rgba(255,255,255,.14)!important}.brand h1,.brand p{color:#fff!important}
+.hero{background:linear-gradient(135deg,#fff7d9 0%,#fffdf8 100%)!important;border-color:#f0df9e!important}.hero .eyebrow{color:var(--ofo-red)!important}.hero h2{color:var(--ofo-ink)!important}.hero .dot{color:var(--ofo-red)!important}
+.card{background:#fff!important;border-color:var(--ofo-line)!important;box-shadow:0 8px 28px rgba(80,45,30,.07)!important}.section-title{color:var(--ofo-ink)!important}.num{border-color:var(--ofo-red)!important;color:var(--ofo-red)!important}
+.tag{background:var(--ofo-yellow-soft)!important;color:#806500!important;border-color:#efd77b!important}
+.quota-box{background:linear-gradient(135deg,#fff8dc,#fffdf7)!important;border-color:#f0df9e!important}.quota-box strong{color:var(--ofo-red-dark)!important}.copay-total{border-top-color:#eadfd2!important}.copay-total strong{color:var(--ofo-red)!important}
+.secondary{background:#fff!important;border-color:#e5cfc7!important;color:var(--ofo-red-dark)!important}.secondary:hover{background:var(--ofo-red-soft)!important;border-color:#dca39d!important}.primary{background:var(--ofo-red)!important;border-color:var(--ofo-red)!important}.primary:hover{background:var(--ofo-red-dark)!important}
+select,input{border-color:#dfd6cc!important;background:#fffdfa!important;color:var(--ofo-ink)!important}select:focus,input:focus{border-color:var(--ofo-red)!important;box-shadow:0 0 0 4px rgba(213,47,38,.12)!important}
+.service-tabs button{background:#f7eee7!important;color:#6e514b!important}.service-tabs button.active{background:var(--ofo-red)!important;color:#fff!important}
+.transport-switch button{background:#fff!important;color:#6e514b!important;border-color:#dfd6cc!important}.transport-switch button.active{background:var(--ofo-red)!important;color:#fff!important;border-color:var(--ofo-red)!important}
+.price-box{background:linear-gradient(135deg,#fff7d9,#fffdf8)!important;border-color:#efd77b!important}.price-box .big{color:var(--ofo-red-dark)!important}
+.notice{background:#fffdf8!important;border-color:var(--ofo-line)!important}.notice h3{color:var(--ofo-red-dark)!important}.item{border-bottom-color:#f0e8df!important}.danger{background:var(--ofo-red-soft)!important;color:var(--ofo-red-dark)!important}.bar{background:#f2e7dc!important}.bar i{background:var(--ofo-red)!important}
+</style>
+<style id="ofo-v41-assistive">
+.assistive-summary{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:18px}.assistive-summary .mini{background:linear-gradient(135deg,#fff7d9,#fffdf8);border:1px solid #efd77b;border-radius:16px;padding:15px}.assistive-summary small{display:block;color:#727a77}.assistive-summary strong{display:block;color:#b8241d;font-size:24px;margin-top:3px}.assistive-note{color:#727a77;font-size:13px;margin:0 0 16px}.assistive-list{display:grid;gap:10px}.assistive-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;padding:14px 15px;border:1px solid #eadfd2;border-radius:15px;background:#fffdfa}.assistive-name b{display:block;color:#26312f;font-size:16px}.assistive-name small{display:block;color:#727a77;margin-top:3px}.assistive-amount{text-align:right;white-space:nowrap}.assistive-amount strong{display:block;color:#b8241d;font-size:19px}.assistive-amount small{display:block;color:#727a77;margin-top:3px}.assistive-group{margin:18px 0 8px;color:#b8241d;font-weight:950;font-size:17px}.assistive-group:first-child{margin-top:0}@media(max-width:700px){.assistive-summary{grid-template-columns:1fr}.assistive-row{grid-template-columns:1fr}.assistive-amount{text-align:left}}
+</style>
+
+<style id="ofo-v42-assistive">
+.assistive-add-head{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:4px 0 14px}.assistive-add-head b{display:block;color:#26312f;font-size:18px}.assistive-add-head span{display:block;color:#727a77;font-size:13px;margin-top:4px}.assistive-row{display:grid;grid-template-columns:minmax(0,1fr) 120px auto;gap:12px;align-items:start;padding:15px;border:1px solid #eadfd2;border-radius:15px;background:#fffdfa;margin-bottom:10px}.assistive-row .svc-select{min-width:0}.assistive-row .qty-select{width:120px}.assistive-row .assistive-result{grid-column:1/-1;display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid #f0e8df;padding-top:10px;gap:12px}.assistive-result .amount strong{display:block;color:#b8241d;font-size:21px}.assistive-result small{display:block;color:#727a77;margin-top:3px}.assistive-row.over{border-color:#d52f26;background:#fff3f0}.assistive-row.over .assistive-result .amount strong,.assistive-row.over .assistive-result .remain{color:#d52f26}.assistive-empty{padding:18px;border:1px dashed #dfd6cc;border-radius:15px;color:#727a77;background:#fffdfa}.quota-box .over{color:#d52f26!important}.assistive-add-head .primary{white-space:nowrap}@media(max-width:700px){.assistive-add-head{align-items:stretch;flex-direction:column}.assistive-row{grid-template-columns:1fr}.assistive-row .qty-select{width:100%}.assistive-row .assistive-result{grid-column:auto;flex-direction:column;align-items:flex-start}}
+</style>
+
+<style id="v45-assistive-cleanup">
+.assistive-result{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:24px;
+  margin-top:14px;
+}
+.assistive-result .amount{
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+}
+.assistive-result .amount strong{
+  font-size:30px;
+  line-height:1.15;
+}
+.assistive-result .amount small,
+.assistive-result .assistive-meta small{
+  color:#6f817d;
+  font-size:16px;
+}
+.assistive-result .assistive-meta{
+  text-align:right;
+  white-space:nowrap;
+}
+@media (max-width:600px){
+  .assistive-result{align-items:flex-start; gap:12px;}
+  .assistive-result .amount strong{font-size:26px;}
+  .assistive-result .amount small,
+  .assistive-result .assistive-meta small{font-size:14px;}
+}
+</style>
+
+<style id="v47-assistive-groups">
+#assistiveRows select optgroup{font-weight:700;}
+#assistiveRows select option{font-weight:400;}
+</style><style id="v49-assistive-search">
+.assistive-search-wrap{position:relative;flex:1;min-width:0}
+.assistive-search{width:100%;box-sizing:border-box;padding:11px 14px;border:1px solid #ddd;border-radius:10px;background:#fff;font-size:16px;color:#333}
+.assistive-search:focus{outline:none;border-color:#c33;box-shadow:0 0 0 3px rgba(180,40,40,.10)}
+.assistive-search-results{position:absolute;left:0;right:0;top:calc(100% + 5px);z-index:20;max-height:260px;overflow:auto;background:#fff;border:1px solid #e2e2e2;border-radius:10px;box-shadow:0 8px 22px rgba(0,0,0,.10)}
+.assistive-search-item{display:block;width:100%;text-align:left;padding:10px 13px;border:0;border-bottom:1px solid #f0f0f0;background:#fff;color:#333;font-size:15px;cursor:pointer}
+.assistive-search-item:hover{background:#fff5f3}
+.assistive-no-results{padding:12px;color:#888;font-size:14px}
+</style><style id="v51-assistive-compact">
+.assistive-row{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  grid-template-areas:
+    "search remove"
+    "result result";
+  gap:8px 10px;
+  padding:10px 12px;
+}
+.assistive-row .assistive-search-wrap{grid-area:search;}
+.assistive-row > .danger{grid-area:remove;align-self:center;white-space:nowrap;}
+.assistive-row .assistive-result{
+  grid-area:result;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  margin-top:0;
+  padding:7px 10px;
+  border-top:1px solid #eee;
+}
+.assistive-row .assistive-result .amount{
+  display:flex;
+  align-items:baseline;
+  gap:8px;
+  min-width:0;
+}
+.assistive-row .assistive-result .amount strong{
+  font-size:20px;
+  line-height:1.15;
+}
+.assistive-row .assistive-result .amount small{
+  font-size:13px;
+  white-space:nowrap;
+}
+.assistive-row .assistive-meta{
+  text-align:right;
+  white-space:nowrap;
+}
+.assistive-row .assistive-meta small{
+  font-size:13px;
+}
+.assistive-row .assistive-search{
+  padding:8px 11px;
+  font-size:15px;
+}
+@media (max-width:600px){
+  .assistive-row{grid-template-columns:minmax(0,1fr) auto;padding:8px 10px;}
+  .assistive-row .assistive-result{gap:8px;padding:6px 7px;}
+  .assistive-row .assistive-result .amount strong{font-size:18px;}
+  .assistive-row .assistive-result .amount small,
+  .assistive-row .assistive-meta small{font-size:12px;}
+}
+</style><style id="v52-assistive-ultra-compact">
+/* V52：輔具卡片改成真正的「一筆一列」 */
+.assistive-row{
+  display:grid !important;
+  grid-template-columns:minmax(0,1fr) auto !important;
+  grid-template-areas:
+    "search remove"
+    "result result" !important;
+  gap:5px 8px !important;
+  padding:7px 9px !important;
+  min-height:0 !important;
+}
+.assistive-row .assistive-search{
+  padding:7px 10px !important;
+  font-size:14px !important;
+  height:38px !important;
+}
+.assistive-row .assistive-result{
+  grid-area:result;
+  display:grid !important;
+  grid-template-columns:minmax(0,1fr) auto auto !important;
+  align-items:center !important;
+  gap:8px !important;
+  margin:0 !important;
+  padding:4px 2px 1px !important;
+  border-top:1px solid #eee !important;
+}
+.assistive-row .assistive-result .amount{
+  display:block !important;
+  min-width:0 !important;
+}
+.assistive-row .assistive-result .amount strong{
+  display:inline-block !important;
+  font-size:18px !important;
+  line-height:1.1 !important;
+}
+.assistive-row .assistive-result .amount small{
+  display:none !important;
+}
+.assistive-row .assistive-meta{
+  text-align:right !important;
+  white-space:nowrap !important;
+  font-size:13px !important;
+}
+.assistive-row .assistive-meta small{
+  font-size:12px !important;
+}
+.assistive-row > .danger{
+  padding:7px 10px !important;
+  font-size:14px !important;
+  align-self:center !important;
+}
+.assistive-row .assistive-search-results{
+  max-height:220px !important;
+}
+@media (max-width:600px){
+  .assistive-row{padding:6px 8px !important;gap:4px 7px !important;}
+  .assistive-row .assistive-search{height:36px !important;padding:6px 9px !important;font-size:14px !important;}
+  .assistive-row .assistive-result{grid-template-columns:minmax(0,1fr) auto auto !important;gap:6px !important;padding:3px 1px 0 !important;}
+  .assistive-row .assistive-result .amount strong{font-size:17px !important;}
+  .assistive-row .assistive-meta,.assistive-row .assistive-meta small{font-size:11px !important;}
+}
+</style><style id="v53-assistive-spacing">
+/* V53：未選擇項目時隱藏結果；卡片增加舒適留白 */
+.assistive-row{
+  padding:10px 10px !important;
+}
+.assistive-row .assistive-result:empty{
+  display:none !important;
+}
+.assistive-row .assistive-result.is-empty,
+.assistive-row .assistive-result[data-empty="true"]{
+  display:none !important;
+}
+.assistive-row .assistive-result{
+  min-height:34px !important;
+  padding:7px 4px 5px !important;
+}
+.assistive-row .assistive-result .amount strong{
+  line-height:1.2 !important;
+}
+</style>
+<style id="ofo-v66-five-treasure-theme">
+:root{
+  --ofo-green:#50B879;
+  --ofo-blue:#384A9D;
+  --ofo-orange:#EB6132;
+  --ofo-yellow:#F8BA3B;
+  --ofo-pink:#EB6DA5;
+  --ofo-ink:#292929;
+  --ofo-muted:#6f7774;
+  --ofo-bg:#fffdf9;
+  --ofo-card:#ffffff;
+  --ofo-line:#e9e4dc;
+}
+body{background:linear-gradient(180deg,#ffffff 0%,#fffdf9 58%,#fffaf2 100%)!important;color:var(--ofo-ink)!important}
+.header{
+  background:#fff!important;color:var(--ofo-ink)!important;
+  box-shadow:0 4px 18px rgba(55,55,55,.08)!important;
+  border-bottom:1px solid #eee9e2!important;
+  position:sticky!important;
+}
+.header::after{
+  content:"";display:block;height:5px;width:100%;
+  background:linear-gradient(90deg,var(--ofo-green) 0 20%,var(--ofo-blue) 20% 40%,var(--ofo-orange) 40% 60%,var(--ofo-yellow) 60% 80%,var(--ofo-pink) 80% 100%);
+}
+.brand h1{color:var(--ofo-ink)!important}.brand p{color:#7a817e!important}
+.logo{border:1px solid #eee7df!important;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.nav{padding-bottom:12px!important;max-width:760px!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:10px!important}
+.nav a{background:#fff!important;border:1px solid #eee8df!important;color:var(--ofo-ink)!important;border-radius:14px!important;transition:.18s ease;box-shadow:0 2px 8px rgba(0,0,0,.035)}
+.nav a:nth-child(1){border-color:#bfe7cf!important;color:#36885a!important}
+.nav a:nth-child(2){border-color:#c9cff0!important;color:#384A9D!important}
+.nav a:nth-child(3){border-color:#f3c8b8!important;color:#c9512c!important}
+.nav a:nth-child(4){border-color:#f2c6d9!important;color:#c85487!important}
+.nav a:nth-child(1):hover,.nav a:nth-child(1):focus{background:#50B879!important;color:#fff!important;border-color:#50B879!important}
+.nav a:nth-child(2):hover,.nav a:nth-child(2):focus{background:#384A9D!important;color:#fff!important;border-color:#384A9D!important}
+.nav a:nth-child(3):hover,.nav a:nth-child(3):focus{background:#EB6132!important;color:#fff!important;border-color:#EB6132!important}
+.nav a:nth-child(4):hover,.nav a:nth-child(4):focus{background:#EB6DA5!important;color:#fff!important;border-color:#EB6DA5!important}
+.hero{
+  position:relative;overflow:hidden;background:#fff!important;border:1px solid #eee7dd!important;
+  border-radius:26px!important;padding:32px 28px 30px!important;
+  box-shadow:0 8px 28px rgba(70,50,30,.055)!important;
+}
+.hero::after{
+  content:"";position:absolute;width:170px;height:170px;right:-55px;top:-70px;border-radius:50%;
+  background:radial-gradient(circle at 35% 35%,rgba(248,186,59,.24) 0 12%,transparent 13%),
+             radial-gradient(circle at 65% 55%,rgba(235,109,165,.16) 0 10%,transparent 11%),
+             radial-gradient(circle at 48% 75%,rgba(80,184,121,.14) 0 9%,transparent 10%);
+}
+.hero .eyebrow{color:#6c716e!important;letter-spacing:.18em!important}.hero h2{color:var(--ofo-ink)!important}.hero .dot{color:var(--ofo-orange)!important}.hero p{color:var(--ofo-muted)!important}
+.card{background:var(--ofo-card)!important;border-color:var(--ofo-line)!important;box-shadow:0 7px 24px rgba(65,50,35,.055)!important}
+.section-title{color:var(--ofo-ink)!important}
+/* 四個服務區各自使用五寶色系，但維持白底、輕量感 */
+#care .section-title .num{border-color:var(--ofo-blue)!important;color:var(--ofo-blue)!important}
+#transport .section-title .num{border-color:var(--ofo-orange)!important;color:var(--ofo-orange)!important}
+#assistive .section-title .num{border-color:#d99a22!important;color:#c98712!important}
+#respite .section-title .num{border-color:var(--ofo-pink)!important;color:#c85487!important}
+#calc .section-title{gap:12px}
+.person-icon{
+  width:31px!important;height:35px!important;min-width:31px!important;
+  border:0!important;border-radius:0!important;display:inline-block!important;position:relative!important;
+  color:var(--ofo-green)!important;margin:0 1px 0 0!important;
+}
+.person-icon::before{content:"";position:absolute;left:50%;top:3px;transform:translateX(-50%);width:11px;height:11px;border-radius:50%;background:currentColor}
+.person-icon::after{content:"";position:absolute;left:50%;bottom:2px;transform:translateX(-50%);width:25px;height:16px;border-radius:14px 14px 6px 6px;background:currentColor}
+/* 輸入元件保持乾淨明亮 */
+select,input{border-color:#ddd8d0!important;background:#fff!important;color:var(--ofo-ink)!important}
+select:focus,input:focus{border-color:var(--ofo-green)!important;box-shadow:0 0 0 4px rgba(80,184,121,.13)!important}
+.primary{background:var(--ofo-green)!important;border-color:var(--ofo-green)!important}.primary:hover{background:#419d65!important}
+.secondary{color:var(--ofo-blue)!important;border-color:#d5d9ed!important}.secondary:hover{background:#f4f5fc!important}
+.service-tabs button{background:#f7f7f5!important;color:#555!important}.service-tabs button.active{background:var(--ofo-blue)!important;color:#fff!important}
+.transport-switch button{background:#fff!important;color:#4d4d4d!important;border-color:#e0dcd5!important}.transport-switch button.active{background:var(--ofo-orange)!important;color:#fff!important;border-color:var(--ofo-orange)!important}
+.price-box{background:#fffaf0!important;border-color:#f2d58f!important}.price-box .big{color:#c87912!important}
+.quota-box{background:#fffaf0!important;border-color:#f2d58f!important}.quota-box strong{color:#c43f2f!important}
+.danger{background:#fff1f1!important;color:#c9483d!important}
+.notice{background:#fff!important;border-color:#ebe5dd!important}.notice h3{color:var(--ofo-orange)!important}
+.assistive-row{background:#fff!important;border-color:#e9e3da!important}.assistive-amount strong{color:#c87912!important}
+.bar i{background:linear-gradient(90deg,var(--ofo-green),var(--ofo-blue),var(--ofo-orange),var(--ofo-yellow),var(--ofo-pink))!important}
+@media(max-width:700px){.nav{grid-template-columns:repeat(2,minmax(0,1fr))!important}.hero{padding:26px 22px 26px!important}}
+</style>
+
+<style id="v70-service-color-system">
+/* V70：每個服務區使用同一色系，透過深淺與透明度區分層次 */
+#care{--svc:var(--ofo-blue);--svc-dark:#2f3d86;--svc-soft:rgba(56,74,157,.07);--svc-border:rgba(56,74,157,.24)}
+#transport{--svc:var(--ofo-orange);--svc-dark:#c94f2a;--svc-soft:rgba(235,97,50,.07);--svc-border:rgba(235,97,50,.25)}
+#assistive{--svc:var(--ofo-yellow);--svc-dark:#a87508;--svc-soft:rgba(248,186,59,.10);--svc-border:rgba(248,186,59,.34)}
+#respite{--svc:var(--ofo-pink);--svc-dark:#c65388;--svc-soft:rgba(235,109,165,.08);--svc-border:rgba(235,109,165,.27)}
+
+/* 標題編號 */
+#care .section-title .num,#transport .section-title .num,#assistive .section-title .num,#respite .section-title .num{
+  border-color:var(--svc)!important;color:var(--svc-dark)!important;background:var(--svc-soft)!important;
+}
+
+/* 額度框：同色系淡底＋透明邊框 */
+#care .quota-box,#transport .quota-box,#assistive .quota-box,#respite .quota-box{
+  background:linear-gradient(135deg,var(--svc-soft),rgba(255,255,255,.96))!important;
+  border-color:var(--svc-border)!important;
+}
+#care .quota-box strong,#transport .quota-box strong,#assistive .quota-box strong,#respite .quota-box strong{
+  color:var(--svc-dark)!important;
+}
+#care .quota-box small,#transport .quota-box small,#assistive .quota-box small,#respite .quota-box small{color:#68716e!important}
+
+/* 新增服務按鈕、切換按鈕、一般操作按鈕 */
+#care .service-add-buttons .secondary,
+#care .primary,#care .secondary,
+#transport .primary,#transport .secondary,
+#assistive .primary,#assistive .secondary,
+#respite .primary,#respite .secondary{
+  color:var(--svc-dark)!important;
+  border-color:var(--svc-border)!important;
+  background:var(--svc-soft)!important;
+}
+#care .service-add-buttons .secondary:hover,#care .secondary:hover,#care .primary:hover,
+#transport .secondary:hover,#transport .primary:hover,
+#assistive .secondary:hover,#assistive .primary:hover,
+#respite .secondary:hover,#respite .primary:hover{
+  background:rgba(255,255,255,.96)!important;
+  border-color:var(--svc)!important;
+}
+#care .primary,#transport .primary,#assistive .primary,#respite .primary{
+  background:var(--svc)!important;border-color:var(--svc)!important;color:#fff!important;
+}
+#care .primary:hover{background:var(--svc-dark)!important}
+#transport .primary:hover{background:var(--svc-dark)!important}
+#assistive .primary:hover{background:#d99f1d!important}
+#respite .primary:hover{background:var(--svc-dark)!important}
+
+/* 交通切換與資訊框 */
+#transport .transport-switch button{border-color:var(--svc-border)!important;color:var(--svc-dark)!important;background:var(--svc-soft)!important}
+#transport .transport-switch button.active{background:var(--svc)!important;color:#fff!important;border-color:var(--svc)!important}
+#transport .transport-info{background:var(--svc-soft)!important;border-color:var(--svc-border)!important}
+#transport .transport-info label{color:#68716e!important}
+#transport .transport-info strong{color:var(--svc-dark)!important}
+#transport .price-box{background:linear-gradient(135deg,var(--svc-soft),rgba(255,255,255,.97))!important;border-color:var(--svc-border)!important}
+#transport .price-box .big{color:var(--svc-dark)!important}
+
+/* 照顧／專業服務列 */
+#care .calc-row{background:var(--svc-soft)!important;border-color:var(--svc-border)!important}
+#care .service-tabs button{background:var(--svc-soft)!important;color:var(--svc-dark)!important}
+#care .service-tabs button.active{background:var(--svc)!important;color:#fff!important}
+#care .row-price strong,#care .item .money{color:var(--svc-dark)!important}
+
+/* 輔具：黃色不要土，使用明亮黃＋較深金黃文字 */
+#assistive .assistive-add-head .primary{background:var(--svc)!important;color:#5b4608!important;border-color:var(--svc)!important}
+#assistive .assistive-add-head .primary:hover{background:#efb32e!important;color:#4e3d08!important}
+#assistive .assistive-row{background:rgba(248,186,59,.045)!important;border-color:var(--svc-border)!important}
+#assistive .assistive-search{border-color:var(--svc-border)!important;background:#fff!important}
+#assistive .assistive-search:focus{border-color:var(--svc)!important;box-shadow:0 0 0 3px rgba(248,186,59,.18)!important}
+#assistive .assistive-search-item:hover{background:rgba(248,186,59,.10)!important}
+#assistive .assistive-amount strong,#assistive .assistive-group{color:var(--svc-dark)!important}
+#assistive .assistive-result{border-top-color:rgba(248,186,59,.18)!important}
+
+/* 喘息服務列 */
+#respite .calc-row{background:var(--svc-soft)!important;border-color:var(--svc-border)!important}
+#respite .row-price strong,#respite .item .money{color:var(--svc-dark)!important}
+#respite .live-summary.mini{background:var(--svc-soft)!important;border:1px solid var(--svc-border)!important}
+#respite .live-summary.mini b{color:var(--svc-dark)!important}
+
+/* 輸入框：各服務區 focus 也跟著自己的色系 */
+#care select,#care input,#transport select,#transport input,#assistive select,#assistive input,#respite select,#respite input{border-color:var(--svc-border)!important}
+#care select:focus,#care input:focus,#transport select:focus,#transport input:focus,#assistive select:focus,#assistive input:focus,#respite select:focus,#respite input:focus{
+  border-color:var(--svc)!important;box-shadow:0 0 0 4px color-mix(in srgb,var(--svc) 13%,transparent)!important;
+}
+</style>
+
+
+<style id="v76-negative-quota-alert">
+/* V76：三項服務剩餘額度為負數時，以紅字醒目提醒 */
+#homeRemain.over,
+#assistiveRemain.over,
+#respiteRemain.over{color:#d52f26 !important;}
+</style>
+<style id="v78-navigation-and-assistive-flow">
+/* V78：快捷導覽避開固定頁首，精準落在各服務區標題 */
+#care,#transport,#assistive,#respite{scroll-margin-top:96px;}
+</style>
+<style id="v80-assistive-editable">
+/* V80：輔具選定後保留搜尋欄，可再次搜尋／修改；不隱藏整筆服務列。 */
+.assistive-search-wrap{display:block !important;}
+</style>
+<style id="v83-readable-buttons">
+/* V83：手機閱讀性微調
+   1. 移除照顧／專業與喘息區塊中重複的「新增服務項目」標題文字
+   2. 主要操作按鈕文字調整為 16px，維持原本五寶色系
+   3. 移除交通接送畫面不必要的身分類別顯示
+*/
+#care .service-add-buttons button{font-size:16px!important;line-height:1.35!important;}
+#transport .transport-switch button{font-size:16px!important;line-height:1.35!important;}
+#assistive .assistive-add-head .primary{font-size:16px!important;line-height:1.35!important;}
+#respite .add-head .primary{font-size:16px!important;line-height:1.35!important;}
+@media(max-width:700px){
+  #care .service-add-buttons button,#transport .transport-switch button,#assistive .assistive-add-head .primary,#respite .add-head .primary{font-size:16px!important;}
+}
+</style>
+
+<style id="v95-professional-reminder-fix">
+/* V96：專業服務灰字提醒固定在金額區，重新計算與切換部分負擔類別後仍會顯示。 */
+#care .calc-row .row-price .professional-reminder{
+  display:block !important; position:static !important; width:100% !important;
+  height:auto !important; min-height:18px !important; margin-top:3px !important; padding:0 !important;
+  overflow:visible !important; color:#7f8884 !important; font-size:12px !important;
+  line-height:1.45 !important; font-weight:400 !important; visibility:visible !important; opacity:1 !important;
+}
+#care .calc-row .row-price .professional-reminder span{
+  color:#7f8884 !important; font-size:12px !important; font-weight:400 !important;
+}
+</style>
+
+<style id="v96-reminder-layout-fix">
+.professional-reminder,
+.professionalReminder,
+[class*="professional-reminder"],
+[class*="professionalReminder"] {
+  display: flex !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+  gap: 0 !important;
+  white-space: nowrap !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  font-size: 12px !important;
+  line-height: 1.45 !important;
+  letter-spacing: 0 !important;
+}
+
+.professional-reminder .reminder-item,
+.professionalReminder .reminder-item,
+[class*="professional-reminder"] .reminder-item,
+[class*="professionalReminder"] .reminder-item {
+  flex: 0 1 auto !important;
+  white-space: nowrap !important;
+}
+
+@media (max-width: 430px) {
+  .professional-reminder,
+  .professionalReminder,
+  [class*="professional-reminder"],
+  [class*="professionalReminder"] {
+    font-size: 11.5px !important;
+  }
+}
+</style>
+
+<!-- V99：照顧／專業服務新增項目置頂 -->
+
+<style id="v105-credit-style">
+.credit-info{
+  max-width:980px;
+  margin:8px auto 0;
+  padding:20px 16px 6px;
+  text-align:center;
+  color:#7a8c87;
+  font-size:12px;
+  line-height:1.8;
+  letter-spacing:.03em;
+}
+.credit-info .maker{
+  color:#4f756e;
+  font-weight:800;
+  font-size:13px;
+}
+.credit-info .date{
+  display:inline-block;
+  margin:0 5px;
+}
+</style>
+
+
+<style id="v106-credit-style">
+.credit-info{
+  max-width:980px;
+  margin:8px auto 0;
+  padding:18px 16px 28px;
+  text-align:center;
+  color:#7a8c87;
+  font-size:12px;
+  line-height:1.8;
+  letter-spacing:.03em;
+}
+.credit-info .maker{
+  color:#4f756e;
+  font-weight:800;
+  font-size:13px;
+  margin-bottom:2px;
+}
+.credit-info .dates{
+  font-size:12px;
+}
+.credit-info .sep{
+  margin:0 4px;
+}
+</style>
+
+
+<link rel="icon" type="image/jpeg" href="icon.jpg">
+<link rel="apple-touch-icon" href="icon.jpg">
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header class="header"><div class="brand"><img class="logo" src="icon.jpg" alt="長照速包錢"><div><h1>財團法人老五老基金會</h1><p>長照速包錢</p></div></div><nav class="nav"><a href="#care">照顧／專業</a><a href="#transport">交通</a><a href="#assistive">輔具／無障礙</a><a href="#respite">喘息</a></nav></header>
+<main>
+<section class="hero"><div class="eyebrow">OLDYES · LONG-TERM CARE</div><h2>長照四包錢試算<span class="dot">．</span></h2><p class="hero-desc">本工具讓老五老個管快速試算「長照四包錢」，<br>無網路也可以使用。</p></section>
+<section class="card" id="calc"><h2 class="section-title"><span class="person-icon" aria-hidden="true"></span>基本資料</h2><div class="grid"><div><label for="cms">長照需要等級</label><select id="cms"><option value="2">CMS 2級</option><option value="3">CMS 3級</option><option value="4">CMS 4級</option><option value="5">CMS 5級</option><option value="6">CMS 6級</option><option value="7">CMS 7級</option><option value="8">CMS 8級</option></select></div><div><label for="classSelect">部分負擔類別</label>
+<select id="classSelect">
+<option value="三類">三類（一般）</option>
+<option value="二類">二類（中低）</option>
+<option value="一類">一類（低收）</option>
+</select></div></div></section>
+<section class="card" id="care">
+<h2 class="section-title"><span class="num">1</span>照顧及專業服務</h2>
+
+<div class="quota-box service-quota" id="homeQuota">
+  <div><small>照顧及專業服務額度</small><strong id="homeLimit">NT$0</strong></div>
+  <div><small>目前使用</small><strong id="homeUsed">NT$0</strong></div>
+  <div><small>剩餘額度</small><strong id="homeRemain">NT$0</strong></div>
+  <div class="copay-total"><small>部分負擔總計</small><strong id="careCopay">NT$0</strong></div>
+</div>
+
+<div class="unified-service-add">
+  <div class="service-add-buttons">
+    <div class="service-add-group">
+      <button class="secondary" data-add-row="care">＋ 居家服務 <span class="service-code">（BA）</span></button>
+      <div class="dynamic-list service-local-list" id="careRows"></div>
+    </div>
+    <div class="service-add-group">
+      <button class="secondary" data-add-row="daycare">＋ 日照／家庭托顧／社區式 <span class="service-code">（BB／BC／BD）</span></button>
+      <div class="dynamic-list service-local-list" id="daycareRows"></div>
+    </div>
+    <div class="service-add-group">
+      <button class="secondary" data-add-row="professional">＋ 專業服務 <span class="service-code">（CA／CB／CC／CD）</span></button>
+      <div class="dynamic-list service-local-list" id="professionalRows"></div>
+    </div>
+  </div>
+</div>
+
+<div class="dynamic-list" id="serviceRows" style="display:none"></div>
+</section>
+<section class="card" id="transport"><h2 class="section-title"><span class="num">2</span>交通接送</h2><div class="transport-switch"><button class="active" data-t="inside">縣內</button><button data-t="outside">縣外</button></div>
+<div class="transport-panel active" id="inside">
+  <input id="insideTrips" type="hidden" value="8"><input id="insideUnit" type="hidden" value="0"><div class="transport-info-grid">
+    <div class="transport-info">
+      <label>核定趟次</label>
+      <strong>8 趟</strong>
+    </div>
+    <div class="transport-info">
+      <label>單趟自付</label>
+      <strong id="insideUnitDisplay">NT$0</strong>
+    </div>
+  </div>
+</div>
+<div class="transport-panel" id="outside"><div class="grid"><div><label>出發地區</label><select id="town"><option>伸港鄉</option><option>線西鄉</option><option>和美鎮</option><option>彰化市</option><option>鹿港鎮</option><option>福興鄉</option><option>秀水鄉</option><option>埔鹽鄉</option><option>溪湖鎮</option><option>芳苑鄉</option><option>二林鎮</option><option>大城鄉</option><option>竹塘鄉</option></select></div></div><div style="margin-top:14px"><label>醫療院所</label><select id="hospital"></select></div><div class="price-box"><div class="hint" id="trafficDesc">請選擇醫療院所。</div><div class="big" id="outsidePrice">NT$—</div></div></div>
+<div class="list" id="transportList"></div></section>
+<section class="card" id="assistive"><h2 class="section-title"><span class="num">3</span>輔具及無障礙改善</h2>
+<div class="quota-box service-quota" id="assistiveQuota">
+  <div><small>三年額度</small><strong id="assistiveLimit">NT$40,000</strong></div>
+  <div><small>目前使用</small><strong id="assistiveUsed">NT$0</strong></div>
+  <div><small>剩餘額度</small><strong id="assistiveRemain">NT$40,000</strong></div>
+</div>
+<div class="assistive-add-head"><div></div><button class="primary" id="addAssistive">＋ 新增服務項目</button></div>
+<div class="dynamic-list" id="assistiveRows"></div></section>
+<section class="card" id="respite"><h2 class="section-title"><span class="num">4</span>喘息服務 </h2>
+<div class="quota-box service-quota" id="respiteQuota">
+  <div><small>喘息服務額度</small><strong id="respiteLimit">NT$0</strong><em id="respiteUnits">42 單位</em></div>
+  <div><small>目前使用</small><strong id="respiteUsed">NT$0</strong></div>
+  <div><small>剩餘額度</small><strong id="respiteRemain">NT$0</strong></div>
+</div>
+
+
+
+<div class="add-head"><button class="primary" data-add-row="respite">＋ 新增服務項目</button></div>
+<div class="dynamic-list" id="resRows"></div>
+</section>
+
+<div class="sum"></div></div><div class="bar"><i id="bar"></i></div></div>
+</main>
+<script>const DATA={"cms":{"2":{"care":10020,"transport":1840,"assistive":40000,"respite":32340},"3":{"care":15460,"transport":1840,"assistive":40000,"respite":32340},"4":{"care":18580,"transport":1840,"assistive":40000,"respite":32340},"5":{"care":24100,"transport":1840,"assistive":40000,"respite":32340},"6":{"care":28070,"transport":1840,"assistive":40000,"respite":32340},"7":{"care":32090,"transport":1840,"assistive":40000,"respite":48510},"8":{"care":36180,"transport":1840,"assistive":40000,"respite":48510}},"care":[{"code":"BA01","name":"基本身體清潔","unit":"單次","price":260,"copay2":13,"copay3":41,"note":"協助床上擦澡。"},{"code":"BA02","name":"基本日常照顧","unit":"30分","price":195,"copay2":9,"copay3":31,"note":"協助刮鬍、剪指甲、服藥、提醒用藥等。每日 6 單位為限。"},{"code":"BA03","name":"測量生命徵象","unit":"單次","price":35,"copay2":1,"copay3":5,"note":"因疾病需監測血壓、體溫、脈搏、呼吸。"},{"code":"BA04","name":"協助餵食或灌食","unit":"單次","price":130,"copay2":6,"copay3":20,"note":"協助加熱現成之飯菜或協助餵食或灌食（不含準備餐食）。"},{"code":"BA05","name":"餐食照顧","unit":"單次","price":310,"copay2":15,"copay3":49,"note":"至家中備餐或製作管灌食品（不含代購食材）。"},{"code":"BA07","name":"協助沐浴及洗頭","unit":"單次","price":325,"copay2":16,"copay3":52,"note":"協助、引導至浴間沐浴。"},{"code":"BA09","name":"到宅沐浴車","unit":"單次","price":2200,"copay2":110,"copay3":352,"note":"專用車輛攜帶行動浴槽至家中提供全身式沐浴。"},{"code":"BA09a","name":"到宅沐浴車（管路核 BA09a）","unit":"單次","price":2500,"copay2":125,"copay3":400,"note":"有尿管、鼻胃管、氣切管者，需安排護理師提供服務。"},{"code":"BA10","name":"翻身拍背","unit":"單次","price":155,"copay2":7,"copay3":24,"note":"扣背、震顫、翻身。"},{"code":"BA11","name":"肢體關節活動","unit":"單次","price":195,"copay2":9,"copay3":31,"note":"上下肢被動運動或督促主動運動或站立訓練。"},{"code":"BA12","name":"協助上或下樓梯","unit":"單次","price":130,"copay2":6,"copay3":20,"note":"協助上或下樓梯、輪椅搬運上或下樓梯（半層不算）。"},{"code":"BA13","name":"陪同外出","unit":"30分","price":195,"copay2":9,"copay3":31,"note":"陪同外出運動、定期式復健／洗腎、購物、參與活動等。"},{"code":"BA14","name":"陪同就醫","unit":"90分","price":685,"copay2":34,"copay3":109,"note":"協助預約掛號、陪同就診、聽取／轉知醫囑及注意事項（不含提供交通工具）。超時後，以 BA13 陪同外出加計。"},{"code":"BA15","name":"家務協助（自用）","unit":"30分","price":195,"copay2":9,"copay3":31,"note":"獨居：居所簡單清理、洗衣等；非獨居：居所清理僅限 1 臥 1 浴、洗衣等；共用空間原則上由家屬維持。共用費用：一類97元、二類101元、三類112元。"},{"code":"BA16","name":"代購／領／送","unit":"單次","price":130,"copay2":6,"copay3":20,"note":"5 公里內協助代購餐食、食材、日用品、領藥、郵寄等。"},{"code":"BA17a","name":"人工氣道管抽吸","unit":"單次","price":75,"copay2":3,"copay3":12,"note":"範圍非氣管內管。每日 3 次為限，照服員需受特殊訓練。"},{"code":"BA17b","name":"口腔分泌物抽吸","unit":"單次","price":65,"copay2":3,"copay3":10,"note":"範圍限懸壅垂前。每日 3 次為限，照服員需受特殊訓練。"},{"code":"BA17c","name":"管路清潔與固定","unit":"單次","price":50,"copay2":2,"copay3":8,"note":"尿管及鼻胃管之清潔固定。每週 7 次為限。"},{"code":"BA17d1","name":"血糖機驗血糖","unit":"單次","price":50,"copay2":2,"copay3":8,"note":"每日 1 次為限。"},{"code":"BA17d2","name":"甘油球通便","unit":"單次","price":50,"copay2":2,"copay3":8,"note":"每週 3 次為限。"},{"code":"BA17e","name":"依指示置入藥盒","unit":"單次","price":50,"copay2":2,"copay3":8,"note":"每週 1 次為限。"},{"code":"BA18","name":"安全看視","unit":"30分","price":200,"copay2":10,"copay3":32,"note":"限心智障礙者使用。"},{"code":"BA20","name":"陪伴服務","unit":"30分","price":175,"copay2":8,"copay3":28,"note":"至家中陪伴看視、日常生活參與、讀紙本或電子新聞或書信、陪伴失能者在家走動留意安全等。"},{"code":"BA22","name":"巡視服務","unit":"每日 3 次","price":130,"copay2":6,"copay3":20,"note":"上午 6 點至下午 6 點，至少 3 次至家中探視失能者情形。"},{"code":"BA23","name":"協助洗頭","unit":"單次","price":200,"copay2":10,"copay3":32,"note":"單獨洗頭。"},{"code":"BA24","name":"協助排泄","unit":"單次","price":220,"copay2":11,"copay3":35,"note":"協助排泄。"}],"daycare":[{"cms":2,"code":"BB01","name":"日照全日","unit":"全日","price":675,"copay2":33,"copay3":108},{"cms":2,"code":"BB02","name":"日照半日","unit":"半日","price":340,"copay2":17,"copay3":54},{"cms":3,"code":"BB03","name":"日照全日","unit":"全日","price":840,"copay2":42,"copay3":134},{"cms":3,"code":"BB04","name":"日照半日","unit":"半日","price":420,"copay2":21,"copay3":67},{"cms":4,"code":"BB05","name":"日照全日","unit":"全日","price":920,"copay2":46,"copay3":147},{"cms":4,"code":"BB06","name":"日照半日","unit":"半日","price":460,"copay2":23,"copay3":73},{"cms":5,"code":"BB07","name":"日照全日","unit":"全日","price":1045,"copay2":52,"copay3":167},{"cms":5,"code":"BB08","name":"日照半日","unit":"半日","price":525,"copay2":26,"copay3":84},{"cms":6,"code":"BB09","name":"日照全日","unit":"全日","price":1130,"copay2":56,"copay3":180},{"cms":6,"code":"BB10","name":"日照半日","unit":"半日","price":565,"copay2":28,"copay3":90},{"cms":7,"code":"BB11","name":"日照全日","unit":"全日","price":1210,"copay2":60,"copay3":193},{"cms":7,"code":"BB12","name":"日照半日","unit":"半日","price":605,"copay2":30,"copay3":96},{"cms":8,"code":"BB13","name":"日照全日","unit":"全日","price":1285,"copay2":64,"copay3":205},{"cms":8,"code":"BB14","name":"日照半日","unit":"半日","price":645,"copay2":32,"copay3":103},{"cms":2,"code":"BC01","name":"家庭托顧全日","unit":"全日","price":625,"copay2":31,"copay3":100},{"cms":2,"code":"BC02","name":"家庭托顧半日","unit":"半日","price":315,"copay2":15,"copay3":50},{"cms":3,"code":"BC03","name":"家庭托顧全日","unit":"全日","price":760,"copay2":38,"copay3":121},{"cms":3,"code":"BC04","name":"家庭托顧半日","unit":"半日","price":380,"copay2":19,"copay3":60},{"cms":4,"code":"BC05","name":"家庭托顧全日","unit":"全日","price":785,"copay2":39,"copay3":125},{"cms":4,"code":"BC06","name":"家庭托顧半日","unit":"半日","price":395,"copay2":19,"copay3":63},{"cms":5,"code":"BC07","name":"家庭托顧全日","unit":"全日","price":880,"copay2":44,"copay3":140},{"cms":5,"code":"BC08","name":"家庭托顧半日","unit":"半日","price":440,"copay2":22,"copay3":70},{"cms":6,"code":"BC09","name":"家庭托顧全日","unit":"全日","price":960,"copay2":48,"copay3":153},{"cms":6,"code":"BC10","name":"家庭托顧半日","unit":"半日","price":480,"copay2":24,"copay3":76},{"cms":7,"code":"BC11","name":"家庭托顧全日","unit":"全日","price":980,"copay2":49,"copay3":156},{"cms":7,"code":"BC12","name":"家庭托顧半日","unit":"半日","price":490,"copay2":24,"copay3":78},{"cms":8,"code":"BC13","name":"家庭托顧全日","unit":"全日","price":1040,"copay2":52,"copay3":166},{"cms":8,"code":"BC14","name":"家庭托顧半日","unit":"半日","price":520,"copay2":26,"copay3":83},{"cms":2,"code":"BD01","name":"社區式沐浴","unit":"次","price":200,"copay2":10,"copay3":32},{"cms":2,"code":"BD03","name":"社區式交通","unit":"單趟","price":115,"copay2":5,"copay3":18}],"community":[{"code":"BD01","name":"社區式沐浴","unit":"次","price":200,"copay2":10,"copay3":32,"note":"於日照、家托接受沐浴服務。"},{"code":"BD03","name":"社區式交通","unit":"單趟","price":115,"copay2":5,"copay3":18,"note":"接送至日照、家托、巷弄站、失智據點等地；限 10 公里內。"}],"professional":[{"code":"CA07","name":"復能照護－居家","unit":"3 次／月","price":4500,"copay2":225,"copay3":720,"note":"日常活動恢復之指導。"},{"code":"CB01","name":"營養照護","unit":"3 次／月","price":4500,"copay2":225,"copay3":720,"note":"適用鼻胃管留置、須管灌者。"},{"code":"CB02","name":"進食與吞嚥照護","unit":"6 次／月","price":9000,"copay2":450,"copay3":1440,"note":"適用中風、吞嚥困難、鼻胃管／氣切管拔管者。"},{"code":"CB03","name":"困擾行為照護","unit":"3 次／月","price":4500,"copay2":225,"copay3":720,"note":"適用個人行為對家人造成困擾者；需 2 種師級介入服務。"},{"code":"CB04","name":"臥床或長期活動受限照護","unit":"6 次／月","price":9000,"copay2":450,"copay3":1440,"note":"需 2 種師級介入服務，如物治師＋護理師。"},{"code":"CC01","name":"居家環境安全或無障礙空間規劃","unit":"2 次","price":2000,"copay2":100,"copay3":320,"note":"居家環境檢視、提出居家安全環境改善方式，以及教導家屬在家維護安全的方式與注意事項。"},{"code":"CD02","name":"居家護理指導與諮詢","unit":"4 次／月","price":6000,"copay2":300,"copay3":960,"note":"由護理師對家屬及外看進行綜合性指導；如符合健保資格建議優先使用健保居護。"}],"respite":[{"code":"GA03","name":"日照喘息（全日）","unit":"全日","price":1250,"copay2":62,"copay3":200,"note":"至日照中心接受照顧。"},{"code":"GA04","name":"日照喘息（半日）","unit":"半日","price":625,"copay2":31,"copay3":100,"note":"至日照中心接受照顧。"},{"code":"GA05","name":"機構喘息（24 小時）","unit":"24 小時","price":2310,"copay2":115,"copay3":369,"note":"至住宿式機構接受照顧。入住前須體檢。"},{"code":"GA06","name":"小規模多機能夜宿","unit":"18:00～隔日08:00","price":2000,"copay2":100,"copay3":320,"note":"至小規模多機能服務中心接受夜間照顧。"},{"code":"GA07","name":"巷弄長照站臨托","unit":"每小時","price":170,"copay2":8,"copay3":27,"note":"至巷弄長照站接受照顧。限輕度失能者。"},{"code":"GA09","name":"居家喘息（2 小時）","unit":"2 小時","price":770,"copay2":38,"copay3":123,"note":"居服員至家中提供服務；不得家務整理（除有沐浴可洗衣）。上限 10 小時／日；07:00～20:00。"}],"traffic":{"線西鄉":[{"city":"台中","hospital":"臺中榮民總醫院","prices":{"線西鄉":{"一般":402,"中低":234,"低收":154}}},{"city":"","hospital":"衛生福利部臺中醫院","prices":{"線西鄉":{"一般":388,"中低":220,"低收":140}}},{"city":"","hospital":"童綜合（梧棲）","prices":{"線西鄉":{"一般":351,"中低":234,"低收":103}}},{"city":"","hospital":"童綜合（沙鹿）","prices":{"線西鄉":{"一般":351,"中低":183,"低收":103}}},{"city":"","hospital":"慈濟","prices":{"線西鄉":{"一般":500,"中低":332,"低收":252}}},{"city":"","hospital":"中山醫（大慶院區）","prices":{"線西鄉":{"一般":333,"中低":165,"低收":85}}},{"city":"","hospital":"中山醫（中興分院）","prices":{"線西鄉":{"一般":305,"中低":137,"低收":57}}},{"city":"","hospital":"中國醫藥大學附設醫院","prices":{"線西鄉":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"澄清醫院（平等院區）","prices":{"線西鄉":{"一般":398,"中低":230,"低收":150}}},{"city":"","hospital":"澄清醫院（中港分院）","prices":{"線西鄉":{"一般":380,"中低":212,"低收":132}}},{"city":"","hospital":"亞洲大學附屬醫院","prices":{"線西鄉":{"一般":359,"中低":191,"低收":111}}},{"city":"","hospital":"林新醫院(烏日)","prices":{"線西鄉":{"一般":268,"中低":100,"低收":20}}},{"city":"","hospital":"林新醫院","prices":{"線西鄉":{"一般":368,"中低":200,"低收":120}}},{"city":"雲林","hospital":"臺大（雲林）","prices":{"線西鄉":{"一般":451,"中低":283,"低收":203}}},{"city":"","hospital":"臺大（虎尾）","prices":{"線西鄉":{"一般":375,"中低":207,"低收":127}}},{"city":"","hospital":"成大（斗六）","prices":{"線西鄉":{"一般":427,"中低":259,"低收":179}}},{"city":"","hospital":"若瑟","prices":{"線西鄉":{"一般":388,"中低":220,"低收":140}}},{"city":"","hospital":"雲基-彰基醫療體系","prices":{"線西鄉":{"一般":319,"中低":151,"低收":71}}},{"city":"","hospital":"中醫藥（北港）","prices":{"線西鄉":{"一般":642,"中低":474,"低收":394}}},{"city":"南投","hospital":"埔基-彰基醫療體系","prices":{"線西鄉":{"一般":695,"中低":527,"低收":447}}},{"city":"","hospital":"秀傳（竹山）","prices":{"線西鄉":{"一般":660,"中低":492,"低收":412}}},{"city":"","hospital":"佑民-彰基醫療體系","prices":{"線西鄉":{"一般":482,"中低":314,"低收":234}}},{"city":"","hospital":"南基-彰基醫療體系","prices":{"線西鄉":{"一般":527,"中低":359,"低收":279}}},{"city":"","hospital":"草屯療養院","prices":{"線西鄉":{"一般":431,"中低":263,"低收":183}}},{"city":"","hospital":"衛生福利部南投醫院","prices":{"線西鄉":{"一般":372,"中低":204,"低收":124}}}],"和美鎮":[{"city":"台中","hospital":"臺中榮民總醫院","prices":{"和美鎮":{"一般":378,"中低":210,"低收":130}}},{"city":"","hospital":"衛生福利部臺中醫院","prices":{"和美鎮":{"一般":388,"中低":220,"低收":140}}},{"city":"","hospital":"童綜合（梧棲）","prices":{"和美鎮":{"一般":400,"中低":210,"低收":152}}},{"city":"","hospital":"童綜合（沙鹿）","prices":{"和美鎮":{"一般":420,"中低":252,"低收":172}}},{"city":"","hospital":"慈濟","prices":{"和美鎮":{"一般":500,"中低":332,"低收":252}}},{"city":"","hospital":"中山醫（大慶院區）","prices":{"和美鎮":{"一般":333,"中低":165,"低收":85}}},{"city":"","hospital":"中山醫（中興分院）","prices":{"和美鎮":{"一般":305,"中低":137,"低收":57}}},{"city":"","hospital":"中國醫藥大學附設醫院","prices":{"和美鎮":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"澄清醫院（平等院區）","prices":{"和美鎮":{"一般":398,"中低":230,"低收":150}}},{"city":"","hospital":"澄清醫院（中港分院）","prices":{"和美鎮":{"一般":380,"中低":212,"低收":132}}},{"city":"","hospital":"亞洲大學附屬醫院","prices":{"和美鎮":{"一般":359,"中低":191,"低收":111}}},{"city":"","hospital":"林新醫院(烏日)","prices":{"和美鎮":{"一般":268,"中低":100,"低收":20}}},{"city":"","hospital":"林新醫院","prices":{"和美鎮":{"一般":368,"中低":200,"低收":120}}},{"city":"雲林","hospital":"臺大（雲林）","prices":{"和美鎮":{"一般":451,"中低":283,"低收":203}}},{"city":"","hospital":"臺大（虎尾）","prices":{"和美鎮":{"一般":375,"中低":207,"低收":127}}},{"city":"","hospital":"成大（斗六）","prices":{"和美鎮":{"一般":427,"中低":259,"低收":179}}},{"city":"","hospital":"若瑟","prices":{"和美鎮":{"一般":388,"中低":220,"低收":140}}},{"city":"","hospital":"雲基-彰基醫療體系","prices":{"和美鎮":{"一般":319,"中低":151,"低收":71}}},{"city":"","hospital":"中醫藥（北港）","prices":{"和美鎮":{"一般":642,"中低":474,"低收":394}}},{"city":"南投","hospital":"埔基-彰基醫療體系","prices":{"和美鎮":{"一般":695,"中低":527,"低收":447}}},{"city":"","hospital":"秀傳（竹山）","prices":{"和美鎮":{"一般":660,"中低":492,"低收":412}}},{"city":"","hospital":"佑民-彰基醫療體系","prices":{"和美鎮":{"一般":482,"中低":314,"低收":234}}},{"city":"","hospital":"南基-彰基醫療體系","prices":{"和美鎮":{"一般":527,"中低":359,"低收":279}}},{"city":"","hospital":"草屯療養院","prices":{"和美鎮":{"一般":431,"中低":263,"低收":183}}},{"city":"","hospital":"衛生福利部南投醫院","prices":{"和美鎮":{"一般":485,"中低":317,"低收":237}}}],"福興鄉":[{"city":"台中","hospital":"臺中榮民總醫院","prices":{"福興鄉":{"一般":412,"中低":244,"低收":164}}},{"city":"","hospital":"衛生福利部臺中醫院","prices":{"福興鄉":{"一般":310,"中低":142,"低收":62}}},{"city":"","hospital":"童綜合（梧棲）","prices":{"福興鄉":{"一般":351,"中低":244,"低收":103}}},{"city":"","hospital":"童綜合（沙鹿）","prices":{"福興鄉":{"一般":351,"中低":183,"低收":103}}},{"city":"","hospital":"慈濟","prices":{"福興鄉":{"一般":500,"中低":332,"低收":252}}},{"city":"","hospital":"中山醫（大慶院區）","prices":{"福興鄉":{"一般":333,"中低":165,"低收":85}}},{"city":"","hospital":"中山醫（中興分院）","prices":{"福興鄉":{"一般":305,"中低":137,"低收":57}}},{"city":"","hospital":"中國醫藥大學附設醫院","prices":{"福興鄉":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"澄清醫院（平等院區）","prices":{"福興鄉":{"一般":440,"中低":272,"低收":192}}},{"city":"","hospital":"澄清醫院（中港分院）","prices":{"福興鄉":{"一般":389,"中低":221,"低收":141}}},{"city":"","hospital":"亞洲大學附屬醫院","prices":{"福興鄉":{"一般":315,"中低":147,"低收":67}}},{"city":"","hospital":"林新醫院(烏日)","prices":{"福興鄉":{"一般":294,"中低":126,"低收":46}}},{"city":"","hospital":"林新醫院","prices":{"福興鄉":{"一般":368,"中低":200,"低收":120}}},{"city":"雲林","hospital":"臺大（雲林）","prices":{"福興鄉":{"一般":451,"中低":283,"低收":203}}},{"city":"","hospital":"臺大（虎尾）","prices":{"福興鄉":{"一般":375,"中低":207,"低收":127}}},{"city":"","hospital":"成大（斗六）","prices":{"福興鄉":{"一般":427,"中低":259,"低收":179}}},{"city":"","hospital":"若瑟","prices":{"福興鄉":{"一般":388,"中低":220,"低收":140}}},{"city":"","hospital":"雲基-彰基醫療體系","prices":{"福興鄉":{"一般":319,"中低":151,"低收":71}}},{"city":"","hospital":"中醫藥（北港）","prices":{"福興鄉":{"一般":642,"中低":474,"低收":394}}},{"city":"南投","hospital":"埔基-彰基醫療體系","prices":{"福興鄉":{"一般":695,"中低":527,"低收":447}}},{"city":"","hospital":"秀傳（竹山）","prices":{"福興鄉":{"一般":508,"中低":340,"低收":260}}},{"city":"","hospital":"佑民-彰基醫療體系","prices":{"福興鄉":{"一般":328,"中低":160,"低收":80}}},{"city":"","hospital":"南基-彰基醫療體系","prices":{"福興鄉":{"一般":368,"中低":200,"低收":120}}},{"city":"","hospital":"草屯療養院","prices":{"福興鄉":{"一般":335,"中低":167,"低收":87}}},{"city":"","hospital":"衛生福利部南投醫院","prices":{"福興鄉":{"一般":338,"中低":170,"低收":90}}}],"埔鹽鄉":[{"city":"台中","hospital":"臺中榮民總醫院","prices":{"埔鹽鄉":{"一般":412,"中低":244,"低收":164}}},{"city":"","hospital":"衛生福利部臺中醫院","prices":{"埔鹽鄉":{"一般":310,"中低":142,"低收":62}}},{"city":"","hospital":"童綜合（梧棲）","prices":{"埔鹽鄉":{"一般":351,"中低":244,"低收":103}}},{"city":"","hospital":"童綜合（沙鹿）","prices":{"埔鹽鄉":{"一般":420,"中低":252,"低收":172}}},{"city":"","hospital":"慈濟","prices":{"埔鹽鄉":{"一般":500,"中低":332,"低收":252}}},{"city":"","hospital":"中山醫（大慶院區）","prices":{"埔鹽鄉":{"一般":333,"中低":165,"低收":85}}},{"city":"","hospital":"中山醫（中興分院）","prices":{"埔鹽鄉":{"一般":305,"中低":137,"低收":57}}},{"city":"","hospital":"中國醫藥大學附設醫院","prices":{"埔鹽鄉":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"澄清醫院（平等院區）","prices":{"埔鹽鄉":{"一般":440,"中低":272,"低收":192}}},{"city":"","hospital":"澄清醫院（中港分院）","prices":{"埔鹽鄉":{"一般":389,"中低":221,"低收":141}}},{"city":"","hospital":"亞洲大學附屬醫院","prices":{"埔鹽鄉":{"一般":315,"中低":147,"低收":67}}},{"city":"","hospital":"林新醫院(烏日)","prices":{"埔鹽鄉":{"一般":294,"中低":126,"低收":46}}},{"city":"","hospital":"林新醫院","prices":{"埔鹽鄉":{"一般":327,"中低":159,"低收":79}}},{"city":"雲林","hospital":"臺大（雲林）","prices":{"埔鹽鄉":{"一般":451,"中低":283,"低收":203}}},{"city":"","hospital":"臺大（虎尾）","prices":{"埔鹽鄉":{"一般":375,"中低":207,"低收":127}}},{"city":"","hospital":"成大（斗六）","prices":{"埔鹽鄉":{"一般":427,"中低":259,"低收":179}}},{"city":"","hospital":"若瑟","prices":{"埔鹽鄉":{"一般":388,"中低":220,"低收":140}}},{"city":"","hospital":"雲基-彰基醫療體系","prices":{"埔鹽鄉":{"一般":319,"中低":151,"低收":71}}},{"city":"","hospital":"中醫藥（北港）","prices":{"埔鹽鄉":{"一般":642,"中低":474,"低收":394}}},{"city":"南投","hospital":"埔基-彰基醫療體系","prices":{"埔鹽鄉":{"一般":596,"中低":428,"低收":348}}},{"city":"","hospital":"秀傳（竹山）","prices":{"埔鹽鄉":{"一般":508,"中低":340,"低收":260}}},{"city":"","hospital":"佑民-彰基醫療體系","prices":{"埔鹽鄉":{"一般":327,"中低":159,"低收":79}}},{"city":"","hospital":"南基-彰基醫療體系","prices":{"埔鹽鄉":{"一般":368,"中低":200,"低收":120}}},{"city":"","hospital":"草屯療養院","prices":{"埔鹽鄉":{"一般":335,"中低":167,"低收":87}}},{"city":"","hospital":"衛生福利部南投醫院","prices":{"埔鹽鄉":{"一般":338,"中低":170,"低收":90}}}],"二林鎮":[{"city":"台中","hospital":"臺中榮民總醫院","prices":{"二林鎮":{"一般":412,"中低":244,"低收":164}}},{"city":"","hospital":"衛生福利部臺中醫院","prices":{"二林鎮":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"童綜合（梧棲）","prices":{"二林鎮":{"一般":351,"中低":244,"低收":103}}},{"city":"","hospital":"童綜合（沙鹿）","prices":{"二林鎮":{"一般":351,"中低":183,"低收":103}}},{"city":"","hospital":"慈濟","prices":{"二林鎮":{"一般":500,"中低":332,"低收":252}}},{"city":"","hospital":"中山醫（大慶院區）","prices":{"二林鎮":{"一般":333,"中低":165,"低收":85}}},{"city":"","hospital":"中山醫（中興分院）","prices":{"二林鎮":{"一般":305,"中低":137,"低收":57}}},{"city":"","hospital":"中國醫藥大學附設醫院","prices":{"二林鎮":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"澄清醫院（平等院區）","prices":{"二林鎮":{"一般":440,"中低":272,"低收":192}}},{"city":"","hospital":"澄清醫院（中港分院）","prices":{"二林鎮":{"一般":389,"中低":221,"低收":141}}},{"city":"","hospital":"亞洲大學附屬醫院","prices":{"二林鎮":{"一般":359,"中低":191,"低收":111}}},{"city":"","hospital":"林新醫院(烏日)","prices":{"二林鎮":{"一般":268,"中低":100,"低收":20}}},{"city":"","hospital":"林新醫院","prices":{"二林鎮":{"一般":368,"中低":200,"低收":120}}},{"city":"雲林","hospital":"臺大（雲林）","prices":{"二林鎮":{"一般":451,"中低":283,"低收":203}}},{"city":"","hospital":"臺大（虎尾）","prices":{"二林鎮":{"一般":375,"中低":207,"低收":127}}},{"city":"","hospital":"成大（斗六）","prices":{"二林鎮":{"一般":427,"中低":259,"低收":179}}},{"city":"","hospital":"若瑟","prices":{"二林鎮":{"一般":388,"中低":220,"低收":140}}},{"city":"","hospital":"雲基-彰基醫療體系","prices":{"二林鎮":{"一般":319,"中低":151,"低收":71}}},{"city":"","hospital":"中醫藥（北港）","prices":{"二林鎮":{"一般":573,"中低":405,"低收":325}}},{"city":"南投","hospital":"埔基-彰基醫療體系","prices":{"二林鎮":{"一般":695,"中低":527,"低收":447}}},{"city":"","hospital":"秀傳（竹山）","prices":{"二林鎮":{"一般":508,"中低":340,"低收":260}}},{"city":"","hospital":"佑民-彰基醫療體系","prices":{"二林鎮":{"一般":327,"中低":159,"低收":79}}},{"city":"","hospital":"南基-彰基醫療體系","prices":{"二林鎮":{"一般":368,"中低":200,"低收":120}}},{"city":"","hospital":"草屯療養院","prices":{"二林鎮":{"一般":335,"中低":167,"低收":87}}},{"city":"","hospital":"衛生福利部南投醫院","prices":{"二林鎮":{"一般":338,"中低":170,"低收":90}}}],"溪湖鎮":[{"city":"台中","hospital":"臺中榮民總醫院","prices":{"溪湖鎮":{"一般":412,"中低":244,"低收":164}}},{"city":"","hospital":"衛生福利部臺中醫院","prices":{"溪湖鎮":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"童綜合（梧棲）","prices":{"溪湖鎮":{"一般":400,"中低":244,"低收":152}}},{"city":"","hospital":"童綜合（沙鹿）","prices":{"溪湖鎮":{"一般":420,"中低":252,"低收":172}}},{"city":"","hospital":"慈濟","prices":{"溪湖鎮":{"一般":500,"中低":332,"低收":252}}},{"city":"","hospital":"中山醫（大慶院區）","prices":{"溪湖鎮":{"一般":333,"中低":165,"低收":85}}},{"city":"","hospital":"中山醫（中興分院）","prices":{"溪湖鎮":{"一般":361,"中低":193,"低收":113}}},{"city":"","hospital":"中國醫藥大學附設醫院","prices":{"溪湖鎮":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"澄清醫院（平等院區）","prices":{"溪湖鎮":{"一般":440,"中低":272,"低收":192}}},{"city":"","hospital":"澄清醫院（中港分院）","prices":{"溪湖鎮":{"一般":389,"中低":221,"低收":141}}},{"city":"","hospital":"亞洲大學附屬醫院","prices":{"溪湖鎮":{"一般":315,"中低":147,"低收":67}}},{"city":"","hospital":"林新醫院(烏日)","prices":{"溪湖鎮":{"一般":294,"中低":126,"低收":46}}},{"city":"","hospital":"林新醫院","prices":{"溪湖鎮":{"一般":368,"中低":200,"低收":120}}},{"city":"雲林","hospital":"臺大（雲林）","prices":{"溪湖鎮":{"一般":451,"中低":283,"低收":203}}},{"city":"","hospital":"臺大（虎尾）","prices":{"溪湖鎮":{"一般":375,"中低":207,"低收":127}}},{"city":"","hospital":"成大（斗六）","prices":{"溪湖鎮":{"一般":427,"中低":259,"低收":179}}},{"city":"","hospital":"若瑟","prices":{"溪湖鎮":{"一般":388,"中低":220,"低收":140}}},{"city":"","hospital":"雲基-彰基醫療體系","prices":{"溪湖鎮":{"一般":319,"中低":151,"低收":71}}},{"city":"","hospital":"中醫藥（北港）","prices":{"溪湖鎮":{"一般":642,"中低":474,"低收":394}}},{"city":"南投","hospital":"埔基-彰基醫療體系","prices":{"溪湖鎮":{"一般":695,"中低":527,"低收":447}}},{"city":"","hospital":"秀傳（竹山）","prices":{"溪湖鎮":{"一般":508,"中低":340,"低收":260}}},{"city":"","hospital":"佑民-彰基醫療體系","prices":{"溪湖鎮":{"一般":327,"中低":159,"低收":79}}},{"city":"","hospital":"南基-彰基醫療體系","prices":{"溪湖鎮":{"一般":368,"中低":200,"低收":120}}},{"city":"","hospital":"草屯療養院","prices":{"溪湖鎮":{"一般":335,"中低":167,"低收":87}}},{"city":"","hospital":"衛生福利部南投醫院","prices":{"溪湖鎮":{"一般":338,"中低":170,"低收":90}}}],"大城鄉":[{"city":"台中","hospital":"臺中榮民總醫院","prices":{"大城鄉":{"一般":402,"中低":234,"低收":154}}},{"city":"","hospital":"衛生福利部臺中醫院","prices":{"大城鄉":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"童綜合（梧棲）","prices":{"大城鄉":{"一般":351,"中低":234,"低收":103}}},{"city":"","hospital":"童綜合（沙鹿）","prices":{"大城鄉":{"一般":351,"中低":183,"低收":103}}},{"city":"","hospital":"慈濟","prices":{"大城鄉":{"一般":500,"中低":332,"低收":252}}},{"city":"","hospital":"中山醫（大慶院區）","prices":{"大城鄉":{"一般":333,"中低":165,"低收":85}}},{"city":"","hospital":"中山醫（中興分院）","prices":{"大城鄉":{"一般":305,"中低":137,"低收":57}}},{"city":"","hospital":"中國醫藥大學附設醫院","prices":{"大城鄉":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"澄清醫院（平等院區）","prices":{"大城鄉":{"一般":440,"中低":272,"低收":192}}},{"city":"","hospital":"澄清醫院（中港分院）","prices":{"大城鄉":{"一般":389,"中低":221,"低收":141}}},{"city":"","hospital":"亞洲大學附屬醫院","prices":{"大城鄉":{"一般":359,"中低":191,"低收":111}}},{"city":"","hospital":"林新醫院(烏日)","prices":{"大城鄉":{"一般":294,"中低":126,"低收":46}}},{"city":"","hospital":"林新醫院","prices":{"大城鄉":{"一般":368,"中低":200,"低收":120}}},{"city":"雲林","hospital":"臺大（雲林）","prices":{"大城鄉":{"一般":778,"中低":610,"低收":530}}},{"city":"","hospital":"臺大（虎尾）","prices":{"大城鄉":{"一般":465,"中低":297,"低收":217}}},{"city":"","hospital":"成大（斗六）","prices":{"大城鄉":{"一般":771,"中低":603,"低收":523}}},{"city":"","hospital":"若瑟","prices":{"大城鄉":{"一般":621,"中低":453,"低收":373}}},{"city":"","hospital":"雲基-彰基醫療體系","prices":{"大城鄉":{"一般":336,"中低":168,"低收":88}}},{"city":"","hospital":"中醫藥（北港）","prices":{"大城鄉":{"一般":581,"中低":413,"低收":333}}},{"city":"南投","hospital":"埔基-彰基醫療體系","prices":{"大城鄉":{"一般":695,"中低":527,"低收":447}}},{"city":"","hospital":"秀傳（竹山）","prices":{"大城鄉":{"一般":1024,"中低":856,"低收":776}}},{"city":"","hospital":"佑民-彰基醫療體系","prices":{"大城鄉":{"一般":327,"中低":159,"低收":79}}},{"city":"","hospital":"南基-彰基醫療體系","prices":{"大城鄉":{"一般":335,"中低":167,"低收":87}}},{"city":"","hospital":"草屯療養院","prices":{"大城鄉":{"一般":335,"中低":167,"低收":87}}},{"city":"","hospital":"衛生福利部南投醫院","prices":{"大城鄉":{"一般":338,"中低":170,"低收":90}}}],"竹塘鄉":[{"city":"台中","hospital":"臺中榮民總醫院","prices":{"竹塘鄉":{"一般":412,"中低":244,"低收":164}}},{"city":"","hospital":"衛生福利部臺中醫院","prices":{"竹塘鄉":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"童綜合（梧棲）","prices":{"竹塘鄉":{"一般":400,"中低":244,"低收":152}}},{"city":"","hospital":"童綜合（沙鹿）","prices":{"竹塘鄉":{"一般":420,"中低":252,"低收":172}}},{"city":"","hospital":"慈濟","prices":{"竹塘鄉":{"一般":500,"中低":332,"低收":252}}},{"city":"","hospital":"中山醫（大慶院區）","prices":{"竹塘鄉":{"一般":333,"中低":165,"低收":85}}},{"city":"","hospital":"中山醫（中興分院）","prices":{"竹塘鄉":{"一般":305,"中低":137,"低收":57}}},{"city":"","hospital":"中國醫藥大學附設醫院","prices":{"竹塘鄉":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"澄清醫院（平等院區）","prices":{"竹塘鄉":{"一般":440,"中低":272,"低收":192}}},{"city":"","hospital":"澄清醫院（中港分院）","prices":{"竹塘鄉":{"一般":389,"中低":221,"低收":141}}},{"city":"","hospital":"亞洲大學附屬醫院","prices":{"竹塘鄉":{"一般":315,"中低":147,"低收":67}}},{"city":"","hospital":"林新醫院(烏日)","prices":{"竹塘鄉":{"一般":294,"中低":126,"低收":46}}},{"city":"","hospital":"林新醫院","prices":{"竹塘鄉":{"一般":368,"中低":200,"低收":120}}},{"city":"雲林","hospital":"臺大（雲林）","prices":{"竹塘鄉":{"一般":451,"中低":283,"低收":203}}},{"city":"","hospital":"臺大（虎尾）","prices":{"竹塘鄉":{"一般":375,"中低":207,"低收":127}}},{"city":"","hospital":"成大（斗六）","prices":{"竹塘鄉":{"一般":405,"中低":237,"低收":157}}},{"city":"","hospital":"若瑟","prices":{"竹塘鄉":{"一般":401,"中低":233,"低收":153}}},{"city":"","hospital":"雲基-彰基醫療體系","prices":{"竹塘鄉":{"一般":336,"中低":168,"低收":88}}},{"city":"","hospital":"中醫藥（北港）","prices":{"竹塘鄉":{"一般":573,"中低":405,"低收":325}}},{"city":"南投","hospital":"埔基-彰基醫療體系","prices":{"竹塘鄉":{"一般":695,"中低":527,"低收":447}}},{"city":"","hospital":"秀傳（竹山）","prices":{"竹塘鄉":{"一般":572,"中低":404,"低收":324}}},{"city":"","hospital":"佑民-彰基醫療體系","prices":{"竹塘鄉":{"一般":327,"中低":159,"低收":79}}},{"city":"","hospital":"南基-彰基醫療體系","prices":{"竹塘鄉":{"一般":335,"中低":167,"低收":87}}},{"city":"","hospital":"草屯療養院","prices":{"竹塘鄉":{"一般":335,"中低":167,"低收":87}}},{"city":"","hospital":"衛生福利部南投醫院","prices":{"竹塘鄉":{"一般":338,"中低":170,"低收":90}}}],"伸港鄉":[{"city":"台中","hospital":"臺中榮民總醫院","prices":{"伸港鄉":{"一般":402,"中低":234,"低收":154}}},{"city":"","hospital":"衛生福利部臺中醫院","prices":{"伸港鄉":{"一般":388,"中低":220,"低收":140}}},{"city":"","hospital":"童綜合（梧棲）","prices":{"伸港鄉":{"一般":351,"中低":234,"低收":103}}},{"city":"","hospital":"童綜合（沙鹿）","prices":{"伸港鄉":{"一般":351,"中低":183,"低收":103}}},{"city":"","hospital":"慈濟","prices":{"伸港鄉":{"一般":500,"中低":332,"低收":252}}},{"city":"","hospital":"中山醫（大慶院區）","prices":{"伸港鄉":{"一般":333,"中低":165,"低收":85}}},{"city":"","hospital":"中山醫（中興分院）","prices":{"伸港鄉":{"一般":305,"中低":137,"低收":57}}},{"city":"","hospital":"中國醫藥大學附設醫院","prices":{"伸港鄉":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"澄清醫院（平等院區）","prices":{"伸港鄉":{"一般":398,"中低":230,"低收":150}}},{"city":"","hospital":"澄清醫院（中港分院）","prices":{"伸港鄉":{"一般":380,"中低":212,"低收":132}}},{"city":"","hospital":"亞洲大學附屬醫院","prices":{"伸港鄉":{"一般":359,"中低":191,"低收":111}}},{"city":"","hospital":"林新醫院(烏日)","prices":{"伸港鄉":{"一般":268,"中低":100,"低收":20}}},{"city":"","hospital":"林新醫院","prices":{"伸港鄉":{"一般":368,"中低":200,"低收":120}}},{"city":"雲林","hospital":"臺大（雲林）","prices":{"伸港鄉":{"一般":451,"中低":283,"低收":203}}},{"city":"","hospital":"臺大（虎尾）","prices":{"伸港鄉":{"一般":375,"中低":207,"低收":127}}},{"city":"","hospital":"成大（斗六）","prices":{"伸港鄉":{"一般":427,"中低":259,"低收":179}}},{"city":"","hospital":"若瑟","prices":{"伸港鄉":{"一般":388,"中低":220,"低收":140}}},{"city":"","hospital":"雲基-彰基醫療體系","prices":{"伸港鄉":{"一般":319,"中低":151,"低收":71}}},{"city":"","hospital":"中醫藥（北港）","prices":{"伸港鄉":{"一般":642,"中低":474,"低收":394}}},{"city":"南投","hospital":"埔基-彰基醫療體系","prices":{"伸港鄉":{"一般":873,"中低":705,"低收":625}}},{"city":"","hospital":"秀傳（竹山）","prices":{"伸港鄉":{"一般":660,"中低":492,"低收":412}}},{"city":"","hospital":"佑民-彰基醫療體系","prices":{"伸港鄉":{"一般":482,"中低":314,"低收":234}}},{"city":"","hospital":"南基-彰基醫療體系","prices":{"伸港鄉":{"一般":527,"中低":359,"低收":279}}},{"city":"","hospital":"草屯療養院","prices":{"伸港鄉":{"一般":431,"中低":263,"低收":183}}},{"city":"","hospital":"衛生福利部南投醫院","prices":{"伸港鄉":{"一般":372,"中低":204,"低收":124}}}],"鹿港鎮":[{"city":"台中","hospital":"臺中榮民總醫院","prices":{"鹿港鎮":{"一般":402,"中低":234,"低收":154}}},{"city":"","hospital":"衛生福利部臺中醫院","prices":{"鹿港鎮":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"童綜合（梧棲）","prices":{"鹿港鎮":{"一般":351,"中低":234,"低收":103}}},{"city":"","hospital":"童綜合（沙鹿）","prices":{"鹿港鎮":{"一般":351,"中低":183,"低收":103}}},{"city":"","hospital":"慈濟","prices":{"鹿港鎮":{"一般":500,"中低":332,"低收":252}}},{"city":"","hospital":"中山醫（大慶院區）","prices":{"鹿港鎮":{"一般":333,"中低":165,"低收":85}}},{"city":"","hospital":"中山醫（中興分院）","prices":{"鹿港鎮":{"一般":305,"中低":137,"低收":57}}},{"city":"","hospital":"中國醫藥大學附設醫院","prices":{"鹿港鎮":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"澄清醫院（平等院區）","prices":{"鹿港鎮":{"一般":443,"中低":275,"低收":195}}},{"city":"","hospital":"澄清醫院（中港分院）","prices":{"鹿港鎮":{"一般":389,"中低":221,"低收":141}}},{"city":"","hospital":"亞洲大學附屬醫院","prices":{"鹿港鎮":{"一般":359,"中低":191,"低收":111}}},{"city":"","hospital":"林新醫院(烏日)","prices":{"鹿港鎮":{"一般":294,"中低":126,"低收":46}}},{"city":"","hospital":"林新醫院","prices":{"鹿港鎮":{"一般":368,"中低":200,"低收":120}}},{"city":"雲林","hospital":"臺大（雲林）","prices":{"鹿港鎮":{"一般":451,"中低":283,"低收":203}}},{"city":"","hospital":"臺大（虎尾）","prices":{"鹿港鎮":{"一般":375,"中低":207,"低收":127}}},{"city":"","hospital":"成大（斗六）","prices":{"鹿港鎮":{"一般":427,"中低":259,"低收":179}}},{"city":"","hospital":"若瑟","prices":{"鹿港鎮":{"一般":388,"中低":220,"低收":140}}},{"city":"","hospital":"雲基-彰基醫療體系","prices":{"鹿港鎮":{"一般":319,"中低":151,"低收":71}}},{"city":"","hospital":"中醫藥（北港）","prices":{"鹿港鎮":{"一般":642,"中低":474,"低收":394}}},{"city":"南投","hospital":"埔基-彰基醫療體系","prices":{"鹿港鎮":{"一般":695,"中低":527,"低收":447}}},{"city":"","hospital":"秀傳（竹山）","prices":{"鹿港鎮":{"一般":508,"中低":340,"低收":260}}},{"city":"","hospital":"佑民-彰基醫療體系","prices":{"鹿港鎮":{"一般":328,"中低":160,"低收":80}}},{"city":"","hospital":"南基-彰基醫療體系","prices":{"鹿港鎮":{"一般":527,"中低":359,"低收":279}}},{"city":"","hospital":"草屯療養院","prices":{"鹿港鎮":{"一般":335,"中低":167,"低收":87}}},{"city":"","hospital":"衛生福利部南投醫院","prices":{"鹿港鎮":{"一般":338,"中低":170,"低收":90}}}],"彰化市":[{"city":"台中","hospital":"臺中榮民總醫院","prices":{"彰化市":{"一般":412,"中低":244,"低收":164}}},{"city":"","hospital":"衛生福利部臺中醫院","prices":{"彰化市":{"一般":365,"中低":197,"低收":117}}},{"city":"","hospital":"童綜合（梧棲）","prices":{"彰化市":{"一般":400,"中低":244,"低收":152}}},{"city":"","hospital":"童綜合（沙鹿）","prices":{"彰化市":{"一般":420,"中低":252,"低收":172}}},{"city":"","hospital":"慈濟","prices":{"彰化市":{"一般":453,"中低":285,"低收":205}}},{"city":"","hospital":"中山醫（大慶院區）","prices":{"彰化市":{"一般":333,"中低":165,"低收":85}}},{"city":"","hospital":"中山醫（中興分院）","prices":{"彰化市":{"一般":305,"中低":137,"低收":57}}},{"city":"","hospital":"中國醫藥大學附設醫院","prices":{"彰化市":{"一般":388,"中低":220,"低收":140}}},{"city":"","hospital":"澄清醫院（平等院區）","prices":{"彰化市":{"一般":372,"中低":204,"低收":124}}},{"city":"","hospital":"澄清醫院（中港分院）","prices":{"彰化市":{"一般":380,"中低":212,"低收":132}}},{"city":"","hospital":"亞洲大學附屬醫院","prices":{"彰化市":{"一般":359,"中低":191,"低收":111}}},{"city":"","hospital":"林新醫院(烏日)","prices":{"彰化市":{"一般":268,"中低":100,"低收":20}}},{"city":"","hospital":"林新醫院","prices":{"彰化市":{"一般":327,"中低":159,"低收":79}}},{"city":"雲林","hospital":"臺大（雲林）","prices":{"彰化市":{"一般":451,"中低":283,"低收":203}}},{"city":"","hospital":"臺大（虎尾）","prices":{"彰化市":{"一般":375,"中低":207,"低收":127}}},{"city":"","hospital":"成大（斗六）","prices":{"彰化市":{"一般":427,"中低":259,"低收":179}}},{"city":"","hospital":"若瑟","prices":{"彰化市":{"一般":388,"中低":220,"低收":140}}},{"city":"","hospital":"雲基-彰基醫療體系","prices":{"彰化市":{"一般":319,"中低":151,"低收":71}}},{"city":"","hospital":"中醫藥（北港）","prices":{"彰化市":{"一般":642,"中低":474,"低收":394}}},{"city":"南投","hospital":"埔基-彰基醫療體系","prices":{"彰化市":{"一般":695,"中低":527,"低收":447}}},{"city":"","hospital":"秀傳（竹山）","prices":{"彰化市":{"一般":660,"中低":492,"低收":412}}},{"city":"","hospital":"佑民-彰基醫療體系","prices":{"彰化市":{"一般":482,"中低":314,"低收":234}}},{"city":"","hospital":"南基-彰基醫療體系","prices":{"彰化市":{"一般":527,"中低":359,"低收":279}}},{"city":"","hospital":"草屯療養院","prices":{"彰化市":{"一般":431,"中低":263,"低收":183}}},{"city":"","hospital":"衛生福利部南投醫院","prices":{"彰化市":{"一般":485,"中低":317,"低收":237}}}],"秀水鄉":[{"city":"台中","hospital":"臺中榮民總醫院","prices":{"秀水鄉":{"一般":412,"中低":244,"低收":164}}},{"city":"","hospital":"衛生福利部臺中醫院","prices":{"秀水鄉":{"一般":310,"中低":142,"低收":62}}},{"city":"","hospital":"童綜合（梧棲）","prices":{"秀水鄉":{"一般":400,"中低":244,"低收":152}}},{"city":"","hospital":"童綜合（沙鹿）","prices":{"秀水鄉":{"一般":420,"中低":252,"低收":172}}},{"city":"","hospital":"慈濟","prices":{"秀水鄉":{"一般":500,"中低":332,"低收":252}}},{"city":"","hospital":"中山醫（大慶院區）","prices":{"秀水鄉":{"一般":333,"中低":165,"低收":85}}},{"city":"","hospital":"中山醫（中興分院）","prices":{"秀水鄉":{"一般":361,"中低":193,"低收":113}}},{"city":"","hospital":"中國醫藥大學附設醫院","prices":{"秀水鄉":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"澄清醫院（平等院區）","prices":{"秀水鄉":{"一般":440,"中低":272,"低收":192}}},{"city":"","hospital":"澄清醫院（中港分院）","prices":{"秀水鄉":{"一般":389,"中低":221,"低收":141}}},{"city":"","hospital":"亞洲大學附屬醫院","prices":{"秀水鄉":{"一般":359,"中低":191,"低收":111}}},{"city":"","hospital":"林新醫院(烏日)","prices":{"秀水鄉":{"一般":294,"中低":126,"低收":46}}},{"city":"","hospital":"林新醫院","prices":{"秀水鄉":{"一般":368,"中低":200,"低收":120}}},{"city":"雲林","hospital":"臺大（雲林）","prices":{"秀水鄉":{"一般":451,"中低":283,"低收":203}}},{"city":"","hospital":"臺大（虎尾）","prices":{"秀水鄉":{"一般":375,"中低":207,"低收":127}}},{"city":"","hospital":"成大（斗六）","prices":{"秀水鄉":{"一般":427,"中低":259,"低收":179}}},{"city":"","hospital":"若瑟","prices":{"秀水鄉":{"一般":388,"中低":220,"低收":140}}},{"city":"","hospital":"雲基-彰基醫療體系","prices":{"秀水鄉":{"一般":319,"中低":151,"低收":71}}},{"city":"","hospital":"中醫藥（北港）","prices":{"秀水鄉":{"一般":642,"中低":474,"低收":394}}},{"city":"南投","hospital":"埔基-彰基醫療體系","prices":{"秀水鄉":{"一般":695,"中低":527,"低收":447}}},{"city":"","hospital":"秀傳（竹山）","prices":{"秀水鄉":{"一般":508,"中低":340,"低收":260}}},{"city":"","hospital":"佑民-彰基醫療體系","prices":{"秀水鄉":{"一般":328,"中低":160,"低收":80}}},{"city":"","hospital":"南基-彰基醫療體系","prices":{"秀水鄉":{"一般":368,"中低":200,"低收":120}}},{"city":"","hospital":"草屯療養院","prices":{"秀水鄉":{"一般":335,"中低":167,"低收":87}}},{"city":"","hospital":"衛生福利部南投醫院","prices":{"秀水鄉":{"一般":338,"中低":170,"低收":90}}}],"芳苑鄉":[{"city":"台中","hospital":"臺中榮民總醫院","prices":{"芳苑鄉":{"一般":402,"中低":234,"低收":154}}},{"city":"","hospital":"衛生福利部臺中醫院","prices":{"芳苑鄉":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"童綜合（梧棲）","prices":{"芳苑鄉":{"一般":351,"中低":154,"低收":103}}},{"city":"","hospital":"童綜合（沙鹿）","prices":{"芳苑鄉":{"一般":351,"中低":183,"低收":103}}},{"city":"","hospital":"慈濟","prices":{"芳苑鄉":{"一般":500,"中低":332,"低收":252}}},{"city":"","hospital":"中山醫（大慶院區）","prices":{"芳苑鄉":{"一般":333,"中低":165,"低收":85}}},{"city":"","hospital":"中山醫（中興分院）","prices":{"芳苑鄉":{"一般":305,"中低":137,"低收":57}}},{"city":"","hospital":"中國醫藥大學附設醫院","prices":{"芳苑鄉":{"一般":438,"中低":270,"低收":190}}},{"city":"","hospital":"澄清醫院（平等院區）","prices":{"芳苑鄉":{"一般":398,"中低":230,"低收":150}}},{"city":"","hospital":"澄清醫院（中港分院）","prices":{"芳苑鄉":{"一般":389,"中低":221,"低收":141}}},{"city":"","hospital":"亞洲大學附屬醫院","prices":{"芳苑鄉":{"一般":359,"中低":191,"低收":111}}},{"city":"","hospital":"林新醫院(烏日)","prices":{"芳苑鄉":{"一般":294,"中低":126,"低收":46}}},{"city":"","hospital":"林新醫院","prices":{"芳苑鄉":{"一般":327,"中低":159,"低收":79}}},{"city":"雲林","hospital":"臺大（雲林）","prices":{"芳苑鄉":{"一般":451,"中低":283,"低收":203}}},{"city":"","hospital":"臺大（虎尾）","prices":{"芳苑鄉":{"一般":375,"中低":207,"低收":127}}},{"city":"","hospital":"成大（斗六）","prices":{"芳苑鄉":{"一般":427,"中低":259,"低收":179}}},{"city":"","hospital":"若瑟","prices":{"芳苑鄉":{"一般":388,"中低":220,"低收":140}}},{"city":"","hospital":"雲基-彰基醫療體系","prices":{"芳苑鄉":{"一般":336,"中低":168,"低收":88}}},{"city":"","hospital":"中醫藥（北港）","prices":{"芳苑鄉":{"一般":581,"中低":413,"低收":333}}},{"city":"南投","hospital":"埔基-彰基醫療體系","prices":{"芳苑鄉":{"一般":695,"中低":527,"低收":447}}},{"city":"","hospital":"秀傳（竹山）","prices":{"芳苑鄉":{"一般":508,"中低":340,"低收":260}}},{"city":"","hospital":"佑民-彰基醫療體系","prices":{"芳苑鄉":{"一般":327,"中低":159,"低收":79}}},{"city":"","hospital":"南基-彰基醫療體系","prices":{"芳苑鄉":{"一般":368,"中低":200,"低收":120}}},{"city":"","hospital":"草屯療養院","prices":{"芳苑鄉":{"一般":335,"中低":167,"低收":87}}},{"city":"","hospital":"衛生福利部南投醫院","prices":{"芳苑鄉":{"一般":338,"中低":170,"低收":90}}}]}};
+const ASSISTIVE=[{"code": "EA01-1", "name": "馬桶增高器", "mode": "購置", "cap": 1200, "years": 3, "exempt": false}, {"code": "EA01-2", "name": "便盆椅", "mode": "購置", "cap": 1200, "years": 3, "exempt": false}, {"code": "EA01-3", "name": "沐浴椅", "mode": "購置", "cap": 1200, "years": 3, "exempt": false}, {"code": "EB01", "name": "單支枴杖－不銹鋼製", "mode": "購置", "cap": 1000, "years": 5, "exempt": false}, {"code": "EB02", "name": "單支枴杖－鋁製", "mode": "購置", "cap": 500, "years": 3, "exempt": false}, {"code": "EB03", "name": "助行器", "mode": "購置", "cap": 800, "years": 3, "exempt": false}, {"code": "EB04", "name": "帶輪型助步車（助行椅）", "mode": "購置／租賃", "cap": 3000, "years": 3, "exempt": false}, {"code": "EC01", "name": "輪椅－A款（非輕量化量產型）", "mode": "購置", "cap": 3500, "years": 3, "exempt": false}, {"code": "EC02", "name": "輪椅－B款（輕量化量產型）", "mode": "購置／租賃", "cap": 4000, "years": 3, "exempt": false}, {"code": "EC03", "name": "輪椅－C款（量身訂製型）", "mode": "購置", "cap": 9000, "years": 3, "exempt": true}, {"code": "EC04", "name": "輪椅附加功能－A款（具利於移位功能）", "mode": "購置／租賃", "cap": 5000, "years": 3, "exempt": true}, {"code": "EC05", "name": "輪椅附加功能－B款（具仰躺功能）", "mode": "購置／租賃", "cap": 2000, "years": 3, "exempt": true}, {"code": "EC06", "name": "輪椅附加功能－C款（具空中傾倒功能）", "mode": "購置／租賃", "cap": 4000, "years": 3, "exempt": true}, {"code": "EC07", "name": "擺位系統－A款（平面型輪椅背靠）", "mode": "購置", "cap": 1000, "years": 3, "exempt": true}, {"code": "EC08", "name": "擺位系統－B款（曲面適形輪椅背靠）", "mode": "購置", "cap": 6000, "years": 3, "exempt": true}, {"code": "EC09", "name": "擺位系統－C款（輪椅軀幹側支撐架）", "mode": "購置", "cap": 3000, "years": 3, "exempt": true}, {"code": "EC10", "name": "擺位系統－D款（輪椅頭靠系統）", "mode": "購置", "cap": 2500, "years": 3, "exempt": true}, {"code": "EC11", "name": "電動輪椅", "mode": "租賃", "cap": 2500, "years": 0, "exempt": false}, {"code": "EC12", "name": "電動代步車", "mode": "租賃", "cap": 1200, "years": 0, "exempt": false}, {"code": "ED01", "name": "移位腰帶", "mode": "購置", "cap": 1500, "years": 3, "exempt": false}, {"code": "ED02", "name": "移位板", "mode": "購置", "cap": 2000, "years": 5, "exempt": false}, {"code": "ED03", "name": "人力移位吊帶", "mode": "購置", "cap": 4000, "years": 3, "exempt": false}, {"code": "ED04", "name": "移位滑墊－A款", "mode": "購置", "cap": 3000, "years": 5, "exempt": false}, {"code": "ED05", "name": "移位滑墊－B款", "mode": "購置", "cap": 8000, "years": 5, "exempt": false}, {"code": "ED06", "name": "移位轉盤", "mode": "購置", "cap": 2000, "years": 3, "exempt": false}, {"code": "ED07", "name": "移位機", "mode": "購置／租賃", "cap": 40000, "years": 10, "exempt": false}, {"code": "ED08", "name": "移位機吊帶", "mode": "購置", "cap": 6000, "years": 3, "exempt": false}, {"code": "EE01", "name": "電話擴音器", "mode": "購置", "cap": 2000, "years": 5, "exempt": false}, {"code": "EE02", "name": "電話閃光震動器", "mode": "購置", "cap": 2000, "years": 5, "exempt": false}, {"code": "EE03", "name": "火警閃光警示器", "mode": "購置", "cap": 2000, "years": 5, "exempt": false}, {"code": "EE04", "name": "門鈴閃光器", "mode": "購置", "cap": 2000, "years": 5, "exempt": false}, {"code": "EE05", "name": "無線震動警示器", "mode": "購置", "cap": 2000, "years": 5, "exempt": false}, {"code": "EF01", "name": "衣著用輔具", "mode": "購置", "cap": 500, "years": 3, "exempt": false}, {"code": "EF02", "name": "居家用生活輔具", "mode": "購置", "cap": 500, "years": 3, "exempt": false}, {"code": "EF03", "name": "飲食用輔具", "mode": "購置", "cap": 500, "years": 3, "exempt": false}, {"code": "EG01", "name": "氣墊床－A款", "mode": "購置／租賃", "cap": 8000, "years": 3, "exempt": true}, {"code": "EG02", "name": "氣墊床－B款", "mode": "購置／租賃", "cap": 12000, "years": 3, "exempt": true}, {"code": "EG03", "name": "輪椅座墊－A款（連通管型氣囊氣墊座－塑膠材質）", "mode": "購置", "cap": 5000, "years": 2, "exempt": true}, {"code": "EG04", "name": "輪椅座墊－B款（連通管型氣囊氣墊座－橡膠材質）", "mode": "購置", "cap": 10000, "years": 2, "exempt": true}, {"code": "EG05", "name": "輪椅座墊－C款（液態凝膠座墊）", "mode": "購置", "cap": 10000, "years": 2, "exempt": true}, {"code": "EG06", "name": "輪椅座墊－D款（固態凝膠座墊）", "mode": "購置", "cap": 8000, "years": 5, "exempt": true}, {"code": "EG07", "name": "輪椅座墊－E款（填充式氣囊氣墊座）", "mode": "購置", "cap": 8000, "years": 5, "exempt": true}, {"code": "EG08", "name": "輪椅座墊－F款（交替充氣型座墊）", "mode": "購置", "cap": 5000, "years": 3, "exempt": true}, {"code": "EG09", "name": "輪椅座墊－G款（量製型座墊）", "mode": "購置", "cap": 10000, "years": 3, "exempt": true}, {"code": "EH01", "name": "居家用照顧床", "mode": "購置／租賃", "cap": 8000, "years": 5, "exempt": false}, {"code": "EH02", "name": "居家用照顧床－附加功能A款（床面升降功能）", "mode": "購置／租賃", "cap": 5000, "years": 5, "exempt": false}, {"code": "EH03", "name": "居家用照顧床－附加功能B款（電動升降功能）", "mode": "購置／租賃", "cap": 5000, "years": 5, "exempt": false}, {"code": "EH04", "name": "爬梯機（單趟）", "mode": "租賃", "cap": 700, "years": 0, "exempt": false}, {"code": "EH05", "name": "爬梯機（月）", "mode": "租賃", "cap": 4000, "years": 0, "exempt": false}, {"code": "FA08", "name": "居家無障礙修繕－反光貼條或消光處理", "mode": "購置", "cap": 3000, "years": 3, "exempt": false}, {"code": "FA13", "name": "居家無障礙修繕－水龍頭（單處）（新增、改換）", "mode": "購置", "cap": 3000, "years": 10, "exempt": false}, {"code": "FA15", "name": "居家無障礙修繕－改善洗臉台（槽）（單處）", "mode": "購置", "cap": 3000, "years": 10, "exempt": false}, {"code": "FA17", "name": "居家無障礙修繕－壁掛式淋浴台（單處）", "mode": "購置", "cap": 5000, "years": 10, "exempt": false}, {"code": "FA18", "name": "居家無障礙修繕－改善流理台（單處）（新增、改換）", "mode": "購置", "cap": 15000, "years": 10, "exempt": false}, {"code": "FA19", "name": "居家無障礙修繕－改善抽油煙機（單處）（位置調整）", "mode": "購置", "cap": 1000, "years": 10, "exempt": false}, {"code": "FA22", "name": "居家無障礙修繕－固定式扶手（每十公分）", "mode": "購置", "cap": 160, "years": 10, "exempt": false}, {"code": "FA23", "name": "居家無障礙修繕－可動式扶手（單支）", "mode": "購置", "cap": 3600, "years": 10, "exempt": false}, {"code": "FA24", "name": "居家無障礙設備－床邊扶手（單處）", "mode": "購置", "cap": 1000, "years": 10, "exempt": false}, {"code": "FA25", "name": "居家無障礙設備－門檻斜角（單側）", "mode": "購置", "cap": 1000, "years": 10, "exempt": false}, {"code": "FA26", "name": "居家無障礙設備－非固定式斜坡板A款", "mode": "購置", "cap": 3500, "years": 10, "exempt": false}, {"code": "FA27", "name": "居家無障礙設備－非固定式斜坡板B款", "mode": "購置", "cap": 5000, "years": 10, "exempt": false}, {"code": "FA28", "name": "居家無障礙設備－非固定式斜坡板C款", "mode": "購置", "cap": 7000, "years": 10, "exempt": false}, {"code": "FA29", "name": "居家無障礙設備－非固定式斜坡板D款", "mode": "購置", "cap": 10000, "years": 10, "exempt": false}, {"code": "FA30", "name": "居家無障礙修繕－改善高低差（高度十公分以下）（單處）", "mode": "購置", "cap": 3500, "years": 10, "exempt": false}, {"code": "FA31", "name": "居家無障礙修繕－改善高低差（高度二十公分以下）（單處）", "mode": "購置", "cap": 5000, "years": 10, "exempt": false}, {"code": "FA32", "name": "居家無障礙修繕－改善高低差（高度三十公分以下）（單處）", "mode": "購置", "cap": 7000, "years": 10, "exempt": false}, {"code": "FA33", "name": "居家無障礙修繕－改善高低差（高度超過三十公分）（單處）", "mode": "購置", "cap": 10000, "years": 10, "exempt": false}, {"code": "FA34", "name": "居家無障礙修繕－防滑地磚（單處）", "mode": "購置", "cap": 6000, "years": 10, "exempt": false}, {"code": "FA35", "name": "居家無障礙設備－防滑措施", "mode": "購置", "cap": 2000, "years": 3, "exempt": false}, {"code": "FA36", "name": "居家無障礙修繕－隔間（每平方公尺）（新增）", "mode": "購置", "cap": 800, "years": 10, "exempt": false}, {"code": "FA37", "name": "居家無障礙修繕－門簡易型（單處）", "mode": "購置", "cap": 7000, "years": 10, "exempt": false}, {"code": "FA38", "name": "居家無障礙修繕－門進階型（單處）", "mode": "購置", "cap": 10000, "years": 10, "exempt": false}, {"code": "FA39", "name": "居家無障礙修繕－截水槽（單處）", "mode": "購置", "cap": 6000, "years": 10, "exempt": false}, {"code": "FA40", "name": "居家無障礙修繕－改善浴缸（單處）（新增、改換、移除－含原處填補）", "mode": "購置", "cap": 7000, "years": 10, "exempt": false}, {"code": "FA41", "name": "居家無障礙修繕－改善馬桶（單處）（新增、改換、移除－含原處填補）", "mode": "購置", "cap": 5000, "years": 10, "exempt": false}, {"code": "FA42", "name": "居家無障礙修繕－馬桶背靠（單處）", "mode": "購置", "cap": 2000, "years": 10, "exempt": false}, {"code": "FA43", "name": "居家無障礙設備－移動式身體清洗槽－局部型", "mode": "購置", "cap": 2000, "years": 3, "exempt": false}, {"code": "FA44", "name": "居家無障礙設備－移動式身體清洗槽－全身型", "mode": "購置", "cap": 5000, "years": 3, "exempt": false}];
+function classifyAssistive(a){
+  const text=`${a.code||''} ${a.name||''}`;
+  if(String(a.code||'').startsWith('FA') || /無障礙|扶手|斜坡|門檻|防滑/.test(text)) return '無障礙改善';
+  if(/氣墊|坐墊/.test(text)) return '氣墊床／坐墊';
+  if(/照顧床|床墊|床欄|移位機|移位/.test(text)) return '照顧床／床上照顧';
+  if(/輪椅|助行|拐杖|步行|四腳/.test(text)) return '輪椅／移動輔具';
+  if(/沐浴|洗澡|便盆|馬桶|如廁/.test(text)) return '如廁／沐浴輔具';
+  if(/餐|進食|飲食/.test(text)) return '進食／生活輔具';
+  return '其他生活輔具';
+}
+
+let cls='三類';
+const state={care:[],daycare:[],professional:[],respite:[],transport:[]};
+const money=n=>'NT$'+Math.round(Number(n)||0).toLocaleString('zh-TW');
+const classMap={'一類':'低收','二類':'中低','三類':'一般'};
+const copKey={'一類':null,'二類':'copay2','三類':'copay3'};
+const el=id=>document.getElementById(id);
+function serviceCop(s){if(cls==='一類')return 0;const k=copKey[cls];return s[k]==null?null:s[k]}
+function professionalReminder(s){
+  if(!s) return '';
+  const unit=s.unit||'';
+  const cp=serviceCop(s);
+  // 專業服務的 price / copay 可能是整個方案（例如 6 次、9,000 元）。
+  // 灰字提醒只顯示單次部分負擔與服務次數，不重複顯示身分類別。
+  const m=String(unit).match(/(\d+(?:\.\d+)?)\s*次/);
+  const count=m?Number(m[1]):1;
+  const singleCp=cp==null?null:(count>0?cp/count:cp);
+  const amount=singleCp==null?'—':money(singleCp);
+  return `<span class="professional-reminder"><span class="reminder-item">單次部分負擔：${amount}</span><span aria-hidden="true">&nbsp;&nbsp;｜&nbsp;&nbsp;</span><span class="reminder-item">服務次數：${unit}</span></span>`;
+}
+function classLabel(){return `${cls}（${classMap[cls]}）`}
+function getItems(t){return state[t]}
+function cmsDayOptions(){const lv=Number(el('cms').value);return DATA.daycare.map((s,i)=>({s,i})).filter(x=>x.s.cms===lv||x.s.code==='BD01'||x.s.code==='BD03')}
+function optionsFor(t){
+ let arr=DATA[t];
+ if(t==='daycare') return cmsDayOptions();
+ return arr.map((s,i)=>({s,i}));
+}
+function qtyOptions(t){
+ const max=t==='care'?200:(t==='respite'?63:31);
+ return Array.from({length:max},(_,i)=>`<option value="${i+1}">${i+1}</option>`).join('');
+}
+function serviceOptionsAvailable(t, currentItem=null){
+ const arr=optionsFor(t);
+ const used=new Set(
+   state[t]
+     .filter(other=>other!==currentItem && other.sel && other.sel.value!=='')
+     .map(other=>Number(other.sel.value))
+ );
+ return arr.filter(x=>!used.has(Number(x.i)));
+}
+
+function syncServiceSelects(t){
+ // V100：照顧／專業服務防呆。已經被其他列選用的服務，不再出現在下拉選單中。
+ for(const item of state[t]){
+   if(!item.sel) continue;
+   const current=String(item.sel.value);
+   const data=serviceOptionsAvailable(t,item);
+   item.sel.innerHTML=data.map(x=>`<option value="${x.i}">${x.s.code}｜${x.s.name}（${x.s.unit}｜${money(x.s.price)}）</option>`).join('');
+   if(current!=='' && data.some(x=>String(x.i)===current)){
+     item.sel.value=current;
+   }else if(data.length){
+     item.sel.value=String(data[0].i);
+   }else{
+     item.sel.value='';
+   }
+ }
+}
+
+function makeRow(t){
+ const rows=el(t==='respite'?'resRows':`${t}Rows`) || el('serviceRows');
+ const arr=serviceOptionsAvailable(t); 
+ if(!arr.length){
+   alert('這一類的服務項目都已經加入囉！\n同一項服務不能重複選擇。');
+   return;
+ }
+ const row=document.createElement('div'); row.className='calc-row';
+ const cat={care:'居家服務',daycare:'日照／家庭托顧／社區式服務',professional:'專業服務',respite:'喘息服務'}[t]||t;
+ const sel=document.createElement('select'); sel.className='svc-select';
+ sel.innerHTML=arr.map(x=>`<option value="${x.i}">${x.s.code}｜${x.s.name}（${x.s.unit}｜${money(x.s.price)}）</option>`).join('');
+ const qty=document.createElement('select'); qty.className='qty-select'; qty.innerHTML=qtyOptions(t);
+ const price=document.createElement('div'); price.className='row-price';
+ const label=document.createElement('div'); label.className='row-category'; label.textContent=cat;
+ const remove=document.createElement('button'); remove.className='danger'; remove.textContent='刪除';
+ const reminder=document.createElement('div');
+ reminder.className='professional-reminder';
+ if(t!=='professional') reminder.hidden=true;
+ row.append(label,sel,qty,price,remove);
+ if(t==='professional') price.appendChild(reminder);
+ // V99：新增加的服務項目放在該服務按鈕下方的最上方，方便連續新增與修改。
+ rows.prepend(row);
+ const item={t,row,sel,qty,price,lastValue:String(sel.value)};
+ state[t].push(item);
+ const refresh=()=>{
+   // 防呆：同一類服務不可重複選擇。
+   const duplicate=state[t].some(other=>other!==item && other.sel && other.sel.value!=='' && other.sel.value===sel.value);
+   if(duplicate){
+     const chosen=DATA[t][Number(sel.value)];
+     alert(`「${chosen?.code||''}｜${chosen?.name||'此服務'}」已經加入試算囉！\n同一項服務不能重複選擇。`);
+     sel.value=item.lastValue;
+     return;
+   }
+   item.lastValue=String(sel.value);
+   const svc=DATA[t][Number(sel.value)];
+   if(!svc)return;
+   const total=(Number(qty.value)||1)*svc.price;
+   const cp=serviceCop(svc);
+   price.innerHTML=`<strong>${money(total)}</strong><small>${cp==null?'部分負擔未列':'部分負擔 '+money((Number(qty.value)||1)*cp)}</small>`;
+   // 重要：price.innerHTML 會清掉原本的 reminder，所以必須在重建金額區後重新插入灰字。
+   if(t==='professional'){
+     reminder.hidden=false;
+     reminder.innerHTML=professionalReminder(svc);
+     price.appendChild(reminder);
+   }
+   syncServiceSelects(t);
+   recalc();
+ };
+ sel.onchange=refresh; qty.onchange=refresh;
+ remove.onclick=()=>{
+   const i=state[t].indexOf(item);
+   if(i>=0)state[t].splice(i,1);
+   row.remove();
+   syncServiceSelects(t);
+   recalc();
+ };
+ refresh();
+}
+
+function calcGroup(t){let u=0,c=0;for(const it of state[t]){const s=DATA[t][Number(it.sel.value)],q=Number(it.qty.value)||1;u+=q*s.price;const cp=serviceCop(s);if(cp!=null)c+=q*cp}return {u,c}}
+
+function recalc(){
+ const cmsLv=Number(el('cms').value);
+ const lim=DATA.cms[String(cmsLv)].care;
+
+ // 三大類共用「照顧及專業服務」月額度。
+ const home=calcGroup('care');
+ const day=calcGroup('daycare');
+ const pro=calcGroup('professional');
+ const total=home.u+day.u+pro.u;
+ const copay=home.c+day.c+pro.c;
+ const remain=lim-total;
+
+ el('homeLimit').textContent=money(lim);
+ el('homeUsed').textContent=money(total);
+ el('homeRemain').textContent=money(remain);
+ el('homeRemain').classList.toggle('over',remain<0);
+ el('careCopay').textContent=money(copay);
+
+ // 喘息服務獨立年度額度。
+ const rUnits=cmsLv>=7?63:42;
+ const rLim=rUnits*770;
+ const rz=calcGroup('respite');
+ const rr=rLim-rz.u;
+ el('respiteLimit').textContent=money(rLim);
+ el('respiteUsed').textContent=money(rz.u);
+ el('respiteRemain').textContent=money(rr);
+ el('respiteRemain').classList.toggle('over',rr<0);
+ el('respiteUnits').textContent=`${rUnits} 單位`;
+
+ // 部分負擔類別變更時，同步更新所有已加入服務列的部分負擔金額。
+ for(const t of ['care','daycare','professional','respite']){
+   for(const it of state[t]){
+     const s=DATA[t][Number(it.sel.value)];
+     if(!s) continue;
+     const q=Number(it.qty.value)||1;
+     const cp=serviceCop(s);
+     it.price.innerHTML=`<strong>${money(q*s.price)}</strong><small>${cp==null?'部分負擔未列':'部分負擔 '+money(q*cp)}</small>`;
+     if(t==='professional'){
+       // 重新計算時 price.innerHTML 會把原本的灰字提醒一起刪掉，重新建立並插回金額區。
+       const note=document.createElement('div');
+       note.className='professional-reminder';
+       note.innerHTML=professionalReminder(s);
+       it.price.appendChild(note);
+     }
+   }
+ }
+
+ renderAllList();
+}
+
+function renderAllList(){
+ const box=el('allList'); box.innerHTML='';
+ const groups=[['care','居家服務'],['daycare','日照／家庭托顧／社區式服務'],['professional','專業服務'],['respite','喘息服務']];
+ let any=false;
+ for(const [t,g] of groups){for(const it of state[t]){any=true;const s=DATA[t][Number(it.sel.value)],q=Number(it.qty.value)||1,tot=q*s.price,cp=serviceCop(s);const d=document.createElement('div');d.className='item';d.innerHTML=`<div><b>${g}｜${s.code} ${s.name}</b><small>${q} × ${money(s.price)}／${s.unit}</small>${t==='professional'?professionalReminder(s):''}</div><div><span class="money">${money(tot)}</span><small>${cp==null?'部分負擔未列':'部分負擔 '+money(q*cp)}</small></div>`;box.appendChild(d)}}
+ for(const x of state.transport){any=true;const d=document.createElement('div');d.className='item';d.innerHTML=`<div><b>交通接送｜${x.label}</b><small>來回自費</small></div><div><span class="money">${money(x.p)}</span><small>自費</small></div>`;box.appendChild(d)}
+ if(!any)box.innerHTML='<div class="hint">目前尚未新增任何服務。</div>';
+}
+function refreshDayRows(){
+ const arr=optionsFor('daycare');
+ // 既有日照／家托／社區式列，依新的 CMS 等級重新整理可選碼別。
+ for(const it of [...state.daycare]){
+   const oldCode=DATA.daycare[Number(it.sel.value)]?.code;
+   it.sel.innerHTML=arr.map(x=>`<option value="${x.i}">${x.s.code}｜${x.s.name}（${x.s.unit}｜${money(x.s.price)}）</option>`).join('');
+   const found=arr.find(x=>x.s.code===oldCode);
+   it.sel.value=String(found?found.i:(arr[0]?.i??0));
+   it.sel.dispatchEvent(new Event('change'));
+ }
+}
+
+function assistiveRate(){return cls==='一類'?1:(cls==='二類'?0.9:0.7)}
+function assistiveCalc(){
+  let used=0;
+  const seen=new Set();
+  for(const it of assistiveState){
+    // 第二層防呆：若任何操作造成重複，後加入的那一筆會被清空，不重複計入額度。
+    if(it.sel.value !== ''){
+      if(seen.has(it.sel.value)){
+        it.sel.value='';
+        it.result.innerHTML='';
+        it.result.classList.add('is-empty');
+        continue;
+      }
+      seen.add(it.sel.value);
+    }
+    // 尚未搜尋／選擇時，不能把空值 Number('') 當成第 0 筆輔具。
+    if(it.sel.value === '') {
+      it.result.innerHTML='';
+      it.result.classList.add('is-empty');
+      continue;
+    }
+    const a=ASSISTIVE[Number(it.sel.value)]; if(!a)continue;
+    // 輔具及無障礙改善的三年額度，依「補助上限」扣抵，不以個案實際部分負擔後的金額計算。
+    used+=a.cap;
+  }
+  const remain=40000-used;
+  el('assistiveLimit').textContent=money(40000);
+  el('assistiveUsed').textContent=money(used);
+  el('assistiveRemain').textContent=money(remain);
+  el('assistiveRemain').classList.toggle('over',remain<0);
+
+  for(const it of assistiveState){
+    if(it.sel.value === '') continue;
+    const a=ASSISTIVE[Number(it.sel.value)]; if(!a)continue;
+    // 顯示給個案的補助金額依身分類別：一類100%、二類90%、三類70%。
+    const subsidy=Math.floor(a.cap*assistiveRate());
+    it.result.innerHTML=`<div class="amount"><strong>${money(subsidy)}</strong><small>預估補助金額</small></div><div class="assistive-meta"><small>最低使用年限 ${a.years?`${a.years} 年`:'無（租賃）'}</small></div>`;
+    it.result.classList.remove('is-empty');
+  }
+}
+const assistiveState=[];
+function addAssistiveRow(){
+  const rows=el('assistiveRows');
+  if(!rows)return;
+  const row=document.createElement('div'); row.className='assistive-row';
+  const searchWrap=document.createElement('div'); searchWrap.className='assistive-search-wrap';
+  const search=document.createElement('input'); search.type='search'; search.className='assistive-search';
+  search.placeholder='搜尋輔具，例如：照顧床、輪椅、扶手';
+  const results=document.createElement('div'); results.className='assistive-search-results';
+  searchWrap.append(search,results);
+
+  const sel=document.createElement('select'); sel.className='assistive-select'; sel.style.display='none';
+  // 隱藏的 select 仍保留完整索引，讓搜尋選取後能正確帶入該項目的補助上限與使用年限。
+  const blank=document.createElement('option');
+  blank.value=''; blank.textContent='請選擇輔具'; blank.selected=true;
+  sel.appendChild(blank);
+  ASSISTIVE.forEach((a,i)=>{
+    const option=document.createElement('option');
+    option.value=String(i);
+    option.textContent=`${a.code}｜${a.name}`;
+    sel.appendChild(option);
+  });
+  const remove=document.createElement('button'); remove.className='danger'; remove.textContent='刪除';
+  const result=document.createElement('div'); result.className='assistive-result';
+  row.append(searchWrap,sel,remove,result);
+  rows.prepend(row);
+  const item={row,sel,result,search,results}; assistiveState.push(item);
+  // V54：新增後尚未選擇輔具，結果區保持空白。
+  result.innerHTML='';
+  result.classList.add('is-empty');
+
+  const renderResults=()=>{
+    const q=search.value.trim().toLowerCase();
+    results.innerHTML='';
+    // 已經選過的輔具不再出現在搜尋結果中，避免重複選擇。
+    const selectedIndices=new Set(
+      assistiveState
+        .filter(other=>other!==item && other.sel.value!=='')
+        .map(other=>Number(other.sel.value))
+    );
+    const matches=ASSISTIVE.map((a,i)=>({a,i}))
+      .filter(x=>!selectedIndices.has(x.i))
+      .filter(x=>!q || `${x.a.code} ${x.a.name}`.toLowerCase().includes(q))
+      .sort((x,y)=>String(x.a.code||'').localeCompare(String(y.a.code||''),'en',{numeric:true}));
+    if(!matches.length){
+      results.innerHTML='<div class="assistive-no-results">找不到符合的項目</div>';
+      return;
+    }
+    matches.forEach(x=>{
+      const b=document.createElement('button');
+      b.type='button'; b.className='assistive-search-item';
+      b.textContent=`${x.a.code}｜${x.a.name}`;
+      b.onclick=()=>{
+        // 防呆：同一款輔具不能重複加入試算。
+        const duplicate=assistiveState.some(other=>other!==item && other.sel.value===String(x.i));
+        if(duplicate){
+          alert(`「${x.a.code}｜${x.a.name}」已經加入試算囉！\n同一款輔具不能重複選擇。`);
+          return;
+        }
+        sel.value=String(x.i);
+        search.value=`${x.a.code}｜${x.a.name}`;
+        // 選定後保留搜尋欄與目前選項，讓使用者之後可以再次搜尋並修改。
+        // 搜尋結果收起，但搜尋欄不隱藏；再次點擊／輸入即可重新選擇。
+        results.innerHTML='';
+        assistiveCalc();
+        requestAnimationFrame(()=>{
+          const addBtn=el('addAssistive');
+          if(addBtn) addBtn.scrollIntoView({behavior:'smooth',block:'center'});
+        });
+      };
+      results.appendChild(b);
+    });
+  };
+  search.oninput=renderResults;
+  search.onfocus=renderResults;
+  // 已選定項目仍可直接修改：點進搜尋欄後重新顯示可選清單，並排除其他列已選項目。
+  search.onclick=()=>{renderResults();};
+  const refresh=()=>{assistiveCalc();};
+  sel.onchange=refresh;
+  remove.onclick=()=>{const i=assistiveState.indexOf(item);if(i>=0)assistiveState.splice(i,1);row.remove();assistiveCalc();};
+  refresh();
+}
+el('addAssistive').onclick=addAssistiveRow;
+
+el('classSelect').onchange=()=>{cls=el('classSelect').value;syncClassUI();insideCalc();updateTraffic();renderTransport();assistiveCalc();recalc()};
+function syncClassUI(){el('classSelect').value=cls}
+el('cms').onchange=()=>{refreshDayRows();recalc()};
+document.querySelectorAll('.service-tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.service-tabs button').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.service-panel').forEach(x=>x.classList.remove('active'));b.classList.add('active');el(b.dataset.panel).classList.add('active')});
+document.querySelectorAll('[data-add-row]').forEach(b=>b.onclick=()=>makeRow(b.dataset.addRow));
+// Transport UI
+function insideCalc(){
+  const n=8;
+  // 縣內交通來回 8 趟；單趟自付依部分負擔類別：一類0、二類20、三類62。
+  const u={ '一類':0, '二類':20, '三類':62 }[cls] ?? 0;
+  el('insideTrips').value=n;
+  el('insideUnit').value=u;
+  const d=el('insideUnitDisplay');
+  if(d)d.textContent=money(u);
+}
+
+function fillHosp(){
+  const town=el('town').value;
+  const raw=(DATA.traffic[town]||[]);
+
+  // Excel 的院所資料以「第一筆寫縣市、後續留白」的方式呈現，
+  // 因此先把縣市往下繼承，再依指定順序排列：台中 → 雲林 → 南投。
+  const cityOrder=['台中','雲林','南投'];
+  let currentCity='';
+  const normalized=raw.map((x,originalIndex)=>{
+    if(x.city) currentCity=x.city;
+    return {...x, city:currentCity, originalIndex};
+  });
+
+  const hs=[];
+  cityOrder.forEach(city=>{
+    normalized.filter(x=>x.city===city).forEach(x=>hs.push(x));
+  });
+  // 若未來資料出現其他縣市，放在指定三縣市之後，避免資料遺失。
+  normalized.filter(x=>!cityOrder.includes(x.city)).forEach(x=>hs.push(x));
+
+  const h=el('hospital');
+  h.innerHTML='';
+  let currentGroup=null;
+  hs.forEach((x,i)=>{
+    if(x.city!==currentGroup){
+      currentGroup=x.city;
+      const group=document.createElement('optgroup');
+      group.label=x.city||'其他';
+      h.appendChild(group);
+    }
+    const group=h.lastElementChild;
+    const opt=document.createElement('option');
+    opt.value=String(i);
+    opt.textContent=x.hospital;
+    group.appendChild(opt);
+  });
+  h._hs=hs;
+  updateTraffic();
+}
+function updateTraffic(){
+  const h=el('hospital')._hs?.[Number(el('hospital').value)],town=el('town').value;
+  const c=classMap[cls];
+  // 縣外：直接使用醫療院所資料中該身分類別的原始金額，包含一類（低收）。
+  const p=h?.prices?.[town]?.[c] ?? null;
+  el('outsidePrice').textContent=p==null?'NT$—':money(p);
+  el('trafficDesc').textContent=h&&p!=null
+    ? `來回自費｜${h.city}｜${h.hospital}`
+    :'請選擇醫療院所。';
+}
+el('town').onchange=fillHosp;el('hospital').onchange=updateTraffic;
+document.querySelectorAll('.transport-switch button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.transport-switch button').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.transport-panel').forEach(x=>x.classList.remove('active'));b.classList.add('active');el(b.dataset.t).classList.add('active')});
+function getTransportEntry(kind){
+  if(kind==='inside'){
+    const p=(Number(el('insideTrips').value)||0)*(Number(el('insideUnit').value)||0);
+    return {kind:'inside',label:'縣內交通',p};
+  }
+  const h=el('hospital')._hs?.[Number(el('hospital').value)],town=el('town').value,c=classMap[cls];
+  const p=h?.prices?.[town]?.[c] ?? 0;
+  return {kind:'outside',town,hospitalIndex:Number(el('hospital').value),city:h?.city||'',hospital:h?.hospital||'',label:`縣外｜${town}｜${h?.city||''}｜${h?.hospital||''}`,p};
+}
+function addTransport(kind){
+  const x=getTransportEntry(kind);
+  if(x.p<=0)return;
+  state.transport.push(x);
+  renderTransport();
+  recalc();
+}
+function renderTransport(){
+  const b=el('transportList');b.innerHTML='';
+  state.transport.forEach((x,i)=>{
+    let p=x.p,label=x.label;
+    if(x.kind==='inside'){
+      // 已加入的縣內交通也要隨部分負擔類別即時更新。
+      p=(Number(el('insideTrips').value)||0)*(Number(el('insideUnit').value)||0);
+      label='縣內交通';
+      x.p=p;
+    }else{
+      const c=classMap[cls];
+      const h=DATA.traffic[x.town]?.[x.hospitalIndex];
+      p=h?.prices?.[x.town]?.[c] ?? 0;
+      label=`縣外｜${x.town}｜${h?.city||x.city||''}｜${h?.hospital||x.hospital||''}`;
+      x.p=p;
+    }
+    const d=document.createElement('div');d.className='item';
+    d.innerHTML=`<div><b>${label}</b><small>來回自費</small></div><div><span class="money">${money(p)}</span></div><button class="danger">刪除</button>`;
+    d.querySelector('button').onclick=()=>{state.transport.splice(i,1);renderTransport();recalc()};
+    b.appendChild(d);
+  });
+}
+const outsideAdd=el('outsideAdd'); if(outsideAdd) outsideAdd.onclick=()=>addTransport('outside');
+// Initial state
+syncClassUI();insideCalc();fillHosp();updateTraffic();recalc();
+
+
+
+</script><script>
+(function(){
+  const u=document.getElementById('insideUnit');
+  const d=document.getElementById('insideUnitDisplay');
+  if(!u||!d)return;
+  const sync=()=>{d.textContent=(typeof money==='function'?money(Number(u.value)||0):'NT$'+(Number(u.value)||0).toLocaleString());};
+  u.addEventListener('input',sync);
+  u.addEventListener('change',sync);
+  sync();
+})();
+renderAssistive();
+</script>
+<style id="v68-assistive-color">
+/* V69：輔具／無障礙改用「老伴」明亮黃色系；交通維持橘色 */
+#assistive .section-title .num{border-color:var(--ofo-yellow)!important;color:#d99f20!important}
+#assistive .assistive-add-head .primary{background:var(--ofo-yellow)!important;border-color:var(--ofo-yellow)!important;color:#5f4a12!important}
+#assistive .assistive-group{color:#d39a1c!important}
+#assistive .assistive-result .amount strong{color:#d39a1c!important}
+#assistive .assistive-result .assistive-meta small{color:#6f817d!important}
+#assistive .assistive-search:focus{border-color:var(--ofo-yellow)!important;box-shadow:0 0 0 3px rgba(248,186,59,.16)!important}
+#assistive .assistive-search-results .assistive-search-item:hover{background:#fff8df!important}
+</style>
+<style>
+/* V72：修正快捷按鈕實際顯示色，與下方 1～4 服務完全一致 */
+.nav a:nth-child(1){color:#384A9D!important;border-color:#c9cff0!important;}
+.nav a:nth-child(2){color:#EB6132!important;border-color:#f3c8b8!important;}
+.nav a:nth-child(3){color:#A87508!important;border-color:rgba(248,186,59,.45)!important;}
+.nav a:nth-child(4){color:#EB6DA5!important;border-color:#f2c6d9!important;}
+.nav a:nth-child(1):hover,.nav a:nth-child(1):focus{background:#384A9D!important;color:#fff!important;border-color:#384A9D!important;}
+.nav a:nth-child(2):hover,.nav a:nth-child(2):focus{background:#EB6132!important;color:#fff!important;border-color:#EB6132!important;}
+.nav a:nth-child(3):hover,.nav a:nth-child(3):focus{background:#F8BA3B!important;color:#5f4a12!important;border-color:#F8BA3B!important;}
+.nav a:nth-child(4):hover,.nav a:nth-child(4):focus{background:#EB6DA5!important;color:#fff!important;border-color:#EB6DA5!important;}
+</style><style>
+/* V73：輔具／無障礙改用五寶「老伴」明亮黃色 */
+#assistive{
+  --svc:#F8BA3B;
+  --svc-dark:#8A6500;
+  --svc-soft:rgba(248,186,59,.12);
+  --svc-border:rgba(248,186,59,.42);
+}
+#assistive .section-title,
+#assistive .section-title *,
+#assistive h2,
+#assistive h3,
+#assistive .service-title,
+#assistive .label,
+#assistive .muted strong{color:#8A6500!important;}
+#assistive button,
+#assistive .btn,
+#assistive .add-btn{
+  background:#F8BA3B!important;
+  border-color:#F8BA3B!important;
+  color:#5F4A12!important;
+}
+#assistive input,
+#assistive select,
+#assistive .search-box,
+#assistive .service-item,
+#assistive .assistive-item,
+#assistive .card{
+  border-color:rgba(248,186,59,.42)!important;
+}
+#assistive .service-item,
+#assistive .assistive-item{
+  background:rgba(248,186,59,.08)!important;
+}
+#assistive .search-box:focus,
+#assistive input:focus,
+#assistive select:focus{
+  border-color:#F8BA3B!important;
+  box-shadow:0 0 0 3px rgba(248,186,59,.18)!important;
+}
+/* 快捷入口第 3 顆同步使用明亮老伴黃，文字不再使用褐黃 */
+.nav a:nth-child(3){
+  color:#F0AA16!important;
+  border-color:rgba(248,186,59,.55)!important;
+}
+.nav a:nth-child(3):hover,
+.nav a:nth-child(3):focus{
+  background:#F8BA3B!important;
+  color:#5F4A12!important;
+  border-color:#F8BA3B!important;
+}
+</style>
+<style id="v75-assistive-yellow-text">
+/* V75：輔具／無障礙文字改用明亮「老伴」黃，避免土黃／褐黃感 */
+#assistive .section-title,
+#assistive .section-title *,
+#assistive h2,
+#assistive h3,
+#assistive .service-title,
+#assistive .label,
+#assistive .muted strong,
+#assistive .assistive-group,
+#assistive .assistive-result .amount strong,
+#assistive .assistive-add-head b {
+  color:#F0AA16!important;
+}
+#assistive .section-title .num {
+  color:#F0AA16!important;
+  border-color:#F8BA3B!important;
+}
+#assistive .assistive-add-head .primary,
+#assistive button, #assistive .btn, #assistive .add-btn {
+  background:#F8BA3B!important;
+  border-color:#F8BA3B!important;
+  color:#5F4A12!important;
+}
+#assistive .assistive-row,
+#assistive .assistive-item,
+#assistive .service-item {
+  border-color:rgba(248,186,59,.42)!important;
+  background:rgba(248,186,59,.08)!important;
+}
+</style>
+
+<style id="v77-negative-quota-fix">
+/* V77：修正服務色系的 !important 規則蓋掉負數提醒；負數一律紅字 */
+#care #homeRemain.over,
+#assistive #assistiveRemain.over,
+#respite #respiteRemain.over {
+  color:#D52F26 !important;
+}
+</style>
+<script id="v81-navigation-fix">
+// V81：快捷導覽改以「服務標題」為定位點，並避開目前實際可見的快捷按鈕列。
+(function(){
+  const navMap = {
+    '照顧／專業':'care',
+    '交通':'transport',
+    '輔具／無障礙':'assistive',
+    '喘息':'respite'
+  };
+
+  function getTargetTitle(section){
+    return section.querySelector('.section-title') || section;
+  }
+
+  function goToSection(id){
+    const section = document.getElementById(id);
+    if(!section) return;
+    const title = getTargetTitle(section);
+    const nav = document.querySelector('.nav');
+    const header = document.querySelector('.header');
+
+    // 以目前畫面中快捷列的底部為基準，讓標題停在快捷列正下方。
+    let offset = 12;
+    if(nav){
+      const r = nav.getBoundingClientRect();
+      if(r.bottom > 0 && r.top < window.innerHeight) offset = r.bottom + 12;
+    } else if(header){
+      const r = header.getBoundingClientRect();
+      if(r.bottom > 0 && r.top < window.innerHeight) offset = r.bottom + 12;
+    }
+
+    const y = title.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({top:Math.max(0,y),behavior:'smooth'});
+
+    // 行動裝置瀏覽器可能在平滑捲動後重新計算 sticky 高度，再校正一次。
+    window.setTimeout(()=>{
+      const nav2 = document.querySelector('.nav');
+      const rr = title.getBoundingClientRect();
+      let bottom = 0;
+      if(nav2){
+        const nr = nav2.getBoundingClientRect();
+        if(nr.bottom > 0 && nr.top < window.innerHeight) bottom = nr.bottom;
+      }
+      if(bottom){
+        const correction = rr.top - (bottom + 12);
+        if(Math.abs(correction) > 4) window.scrollBy({top:correction,behavior:'smooth'});
+      }
+    }, 500);
+  }
+
+  document.addEventListener('click', function(e){
+    const a = e.target.closest('.nav a');
+    if(!a) return;
+    const label = (a.textContent || '').replace(/\s+/g,'').trim();
+    for(const key in navMap){
+      if(label.includes(key.replace('／','/')) || label.includes(key)){
+        e.preventDefault();
+        goToSection(navMap[key]);
+        history.replaceState(null,'',a.getAttribute('href'));
+        return;
+      }
+    }
+  }, true);
+})();
+</script>
+
+<style id="v79-fixes">
+/* V79：輔具選擇區永久保留，方便重新修改 */
+#assistive .assistive-picker,
+#assistive .assistive-search,
+#assistive .search-panel,
+#assistive .picker-panel,
+#assistive [data-assistive-picker] {
+  display: block !important;
+  visibility: visible !important;
+}
+
+/* 快捷導覽：避免固定頁首遮住真正的服務標題 */
+section[id], .section[id], [id="care"], [id="transport"], [id="assistive"], [id="respite"] {
+  scroll-margin-top: 12px;
+}
+</style>
+
+
+
+<style id="v84-final-detail-fix">
+/* V84：介面細節微調
+   1. 輔具搜尋下拉選單回到一般白底，不使用服務黃色。
+   2. 照顧／專業服務按鈕的碼別移到下一行並縮小。
+*/
+#assistive .assistive-search-results{
+  background:#fff!important;
+  border-color:#e2e2e2!important;
+}
+#assistive .assistive-search-results .assistive-search-item{
+  background:#fff!important;
+  color:#333!important;
+  border-bottom-color:#f0f0f0!important;
+}
+#assistive .assistive-search-results .assistive-search-item:hover{
+  background:#f7f7f5!important;
+  color:#333!important;
+}
+#care .service-add-buttons button{
+  font-size:16px!important;
+  line-height:1.25!important;
+}
+#care .service-add-buttons .service-code{
+  display:block;
+  font-size:12px!important;
+  line-height:1.2!important;
+  margin-top:3px;
+  opacity:.85;
+}
+</style>
+
+<style id="v87-cc01">
+/* V88：CC01 為 2 次合計給付，介面另以灰字提示單次收費與單次部分負擔 */
+.cc01-frequency-note{
+  color:#8a8a8a !important;
+  font-size:12px !important;
+  font-weight:400 !important;
+  line-height:1.45 !important;
+}
+.professional-reminder{
+  display:block !important;
+  width:100% !important;
+  box-sizing:border-box !important;
+  min-height:18px !important;
+  padding:2px 0 0 !important;
+  margin:0 !important;
+  color:#7f8884 !important;
+  font-size:12px !important;
+  font-weight:400 !important;
+  line-height:1.45 !important;
+  opacity:1 !important;
+  visibility:visible !important;
+}
+.professional-reminder span{
+  color:#7f8884 !important;
+  font-size:12px !important;
+  font-weight:400 !important;
+}
+@media(max-width:700px){
+  .calc-row .professional-reminder{
+    display:block !important;
+    width:100% !important;
+    padding-left:0 !important;
+    font-size:12px !important;
+  }
+}
+</style>
+<script>
+/* V96：修正 price.innerHTML 重建後灰字提醒被移除，改為每次更新後重新插入，避免手機版 grid 排版把提醒推到不可見位置。 */
+</script>
+
+
+<script id="v88-professional-sort">
+(function(){
+  const order={CA:1,CB:2,CC:3,CD:4};
+  function sortProfessionalSelect(select){
+    if(!select || select.tagName!=='SELECT') return;
+    const opts=Array.from(select.options);
+    const prof=opts.filter(o=>/^(CA|CB|CC|CD)\d+/i.test((o.value||'')+' '+(o.textContent||'')));
+    if(prof.length<1) return;
+    const rest=opts.filter(o=>!prof.includes(o));
+    prof.sort((a,b)=>{
+      const am=((a.value||'')+' '+(a.textContent||'')).match(/(CA|CB|CC|CD)(\d+)/i);
+      const bm=((b.value||'')+' '+(b.textContent||'')).match(/(CA|CB|CC|CD)(\d+)/i);
+      const ag=order[am[1].toUpperCase()]||99, bg=order[bm[1].toUpperCase()]||99;
+      return ag-bg || Number(am[2])-Number(bm[2]);
+    });
+    prof.forEach(o=>select.appendChild(o));
+    rest.forEach(o=>select.appendChild(o));
+  }
+  function run(){document.querySelectorAll('select').forEach(sortProfessionalSelect);}
+  document.addEventListener('DOMContentLoaded',run);
+  new MutationObserver(run).observe(document.body,{childList:true,subtree:true});
+  setTimeout(run,300); setTimeout(run,1000);
+})();
+</script>
+
+<style id="v98-local-service-expansion">
+/* V98：三個照顧／專業服務新增按鈕各自就地展開。
+   點「居家服務」→ 選項直接出現在居家服務按鈕下方；
+   日照／家庭托顧／社區式、專業服務同理，不再全部堆到最下面。 */
+.service-add-buttons{
+  align-items:start !important;
+}
+.service-add-group{
+  min-width:0;
+}
+.service-add-group > .secondary{
+  width:100%;
+}
+.service-local-list{
+  margin-top:10px;
+}
+.service-local-list .calc-row{
+  margin-bottom:10px;
+}
+@media(max-width:700px){
+  .service-add-buttons{
+    grid-template-columns:1fr !important;
+    gap:14px !important;
+  }
+  .service-add-group{
+    width:100%;
+  }
+  .service-local-list{
+    margin-top:8px;
+  }
+}
+</style>
+
+<!-- V100：照顧／專業服務防止重複選擇；已選項目會從其他同類下拉選單排除。 -->
+
+<div class="credit-info" aria-label="製作資訊">
+  <div class="maker">製作：和美中心個管團隊｜2026</div>
+  <div class="dates">
+    <span>開發日期 2026/09/17</span>
+    <span class="sep">｜</span>
+    <span>更新日期 2026/09/17</span>
+  </div>
+</div>
+
+</body></html>

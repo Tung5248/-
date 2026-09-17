@@ -1,0 +1,16 @@
+{
+  "name": "長照速包錢｜老五老基金會",
+  "short_name": "長照速包錢",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fffdf8",
+  "theme_color": "#d52f26",
+  "icons": [
+    {
+      "src": "icon.jpg",
+      "sizes": "1254x1254",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
