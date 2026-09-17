@@ -3,13 +3,13 @@
   "short_name": "長照速包錢",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#fffdf8",
+  "background_color": "#fbf7ed",
   "theme_color": "#d52f26",
   "icons": [
     {
-      "src": "icon.jpg",
-      "sizes": "1254x1254",
-      "type": "image/jpeg",
+      "src": "icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]
